@@ -1,0 +1,140 @@
+{"instruction": "Turn on the lights in the bedroom.", "reasoning": "Based on the request for better lighting or mentioning darkness, the goal is to enable the lights.", "intent": "light_on"}
+{"instruction": "Please switch on the lights in the living room.", "reasoning": "The instruction is a direct command to provide light in a specific area.", "intent": "light_on"}
+{"instruction": "It's a bit dark here, can you illuminate the room?", "reasoning": "Based on the request for better lighting or mentioning darkness, the goal is to enable the lights.", "intent": "light_on"}
+{"instruction": "Turn on the lights, I need better visibility.", "reasoning": "Based on the request for better lighting or mentioning darkness, the goal is to enable the lights.", "intent": "light_on"}
+{"instruction": "Activate the lighting in the hallway, please.", "reasoning": "The user indicates a need for illumination or visibility. Therefore, the system should turn on the lights.", "intent": "light_on"}
+{"instruction": "Time to brighten up the space, turn on the lights.", "reasoning": "The instruction is a direct command to provide light in a specific area.", "intent": "light_on"}
+{"instruction": "Can you flip the switch to light up the kitchen?", "reasoning": "The user indicates a need for illumination or visibility. Therefore, the system should turn on the lights.", "intent": "light_on"}
+{"instruction": "I want to see better, turn on the lights.", "reasoning": "Based on the request for better lighting or mentioning darkness, the goal is to enable the lights.", "intent": "light_on"}
+{"instruction": "It's getting dark outside, turn on the porch lights.", "reasoning": "The instruction is a direct command to provide light in a specific area.", "intent": "light_on"}
+{"instruction": "Switch on the lights, I'm having trouble seeing.", "reasoning": "The instruction is a direct command to provide light in a specific area.", "intent": "light_on"}
+{"instruction": "Turn off the lights in the bedroom.", "reasoning": "The user is leaving or wants darkness, so the lights should be turned off.", "intent": "light_off"}
+{"instruction": "Please switch off the lights in the living room.", "reasoning": "The user is leaving or wants darkness, so the lights should be turned off.", "intent": "light_off"}
+{"instruction": "It's too bright, can you dim the lights?", "reasoning": "The user is leaving or wants darkness, so the lights should be turned off.", "intent": "light_off"}
+{"instruction": "Turn off the lights, it's bedtime.", "reasoning": "The request specifies ending illumination. The system must switch off the light.", "intent": "light_off"}
+{"instruction": "Deactivate the lighting in the hallway, please.", "reasoning": "The user wants to save energy or go to sleep. Turning off the lights is the required response.", "intent": "light_off"}
+{"instruction": "Time to dim the lights, it's movie night.", "reasoning": "The request specifies ending illumination. The system must switch off the light.", "intent": "light_off"}
+{"instruction": "Can you flip the switch to turn off the kitchen lights?", "reasoning": "The user is leaving or wants darkness, so the lights should be turned off.", "intent": "light_off"}
+{"instruction": "I want to conserve energy, turn off the lights.", "reasoning": "The user is leaving or wants darkness, so the lights should be turned off.", "intent": "light_off"}
+{"instruction": "It's morning, turn off the porch lights.", "reasoning": "The request specifies ending illumination. The system must switch off the light.", "intent": "light_off"}
+{"instruction": "Switch off the lights, I'm leaving the room.", "reasoning": "The user wants to save energy or go to sleep. Turning off the lights is the required response.", "intent": "light_off"}
+{"instruction": "Turn on the air conditioning in the living room.", "reasoning": "The user is feeling hot or wants to lower the temperature. The AC should be switched on.", "intent": "ac_on"}
+{"instruction": "Please activate the AC in the bedroom.", "reasoning": "The user is feeling hot or wants to lower the temperature. The AC should be switched on.", "intent": "ac_on"}
+{"instruction": "It's hot in here, can you cool down the room?", "reasoning": "The user desires a cooler environment, necessitating turning on the AC unit.", "intent": "ac_on"}
+{"instruction": "Turn on the AC, it's too warm.", "reasoning": "The user desires a cooler environment, necessitating turning on the AC unit.", "intent": "ac_on"}
+{"instruction": "Activate the air conditioning in the office, please.", "reasoning": "Climate control is requested to cool the room. Activating the air conditioner is the appropriate response.", "intent": "ac_on"}
+{"instruction": "Time to chill, turn on the air conditioning.", "reasoning": "Climate control is requested to cool the room. Activating the air conditioner is the appropriate response.", "intent": "ac_on"}
+{"instruction": "Can you adjust the thermostat to cool the room?", "reasoning": "The user is feeling hot or wants to lower the temperature. The AC should be switched on.", "intent": "ac_on"}
+{"instruction": "I want to lower the temperature, turn on the AC.", "reasoning": "The user is feeling hot or wants to lower the temperature. The AC should be switched on.", "intent": "ac_on"}
+{"instruction": "It's sweltering, turn on the air conditioning unit.", "reasoning": "Climate control is requested to cool the room. Activating the air conditioner is the appropriate response.", "intent": "ac_on"}
+{"instruction": "Switch on the AC, it's getting humid.", "reasoning": "Climate control is requested to cool the room. Activating the air conditioner is the appropriate response.", "intent": "ac_on"}
+{"instruction": "Turn off the air conditioning in the living room.", "reasoning": "To conserve power or because it's too cold, the air conditioning should be deactivated.", "intent": "ac_off"}
+{"instruction": "Please deactivate the AC in the bedroom.", "reasoning": "The user wants to stop the cooling system. Switching off the AC is the logical action.", "intent": "ac_off"}
+{"instruction": "It's cold now, can you turn off the AC?", "reasoning": "The room is cool enough or the user is leaving. The AC should be turned off.", "intent": "ac_off"}
+{"instruction": "Turn off the AC, the room is freezing.", "reasoning": "The room is cool enough or the user is leaving. The AC should be turned off.", "intent": "ac_off"}
+{"instruction": "Deactivate the air conditioning in the office, please.", "reasoning": "The room is cool enough or the user is leaving. The AC should be turned off.", "intent": "ac_off"}
+{"instruction": "Time to warm up, turn off the air conditioning.", "reasoning": "The room is cool enough or the user is leaving. The AC should be turned off.", "intent": "ac_off"}
+{"instruction": "Can you adjust the thermostat to turn off the AC?", "reasoning": "To conserve power or because it's too cold, the air conditioning should be deactivated.", "intent": "ac_off"}
+{"instruction": "I want to raise the temperature, turn off the AC.", "reasoning": "The user wants to stop the cooling system. Switching off the AC is the logical action.", "intent": "ac_off"}
+{"instruction": "It's comfortable now, turn off the air conditioning unit.", "reasoning": "The room is cool enough or the user is leaving. The AC should be turned off.", "intent": "ac_off"}
+{"instruction": "Switch off the AC, it's too cold.", "reasoning": "The room is cool enough or the user is leaving. The AC should be turned off.", "intent": "ac_off"}
+{"instruction": "Turn on the vent in the bathroom.", "reasoning": "Mention of stuffy air or a need for fresh air suggests activating the vent.", "intent": "vent_on"}
+{"instruction": "Please activate the ventilation in the kitchen.", "reasoning": "Mention of stuffy air or a need for fresh air suggests activating the vent.", "intent": "vent_on"}
+{"instruction": "It's stuffy in here, can you turn on the vent?", "reasoning": "The user wants to improve air quality or air flow. The ventilation system should be turned on.", "intent": "vent_on"}
+{"instruction": "Turn on the ventilation, the air feels stale.", "reasoning": "Mention of stuffy air or a need for fresh air suggests activating the vent.", "intent": "vent_on"}
+{"instruction": "Activate the vent in the basement, please.", "reasoning": "The user wants to improve air quality or air flow. The ventilation system should be turned on.", "intent": "vent_on"}
+{"instruction": "Time to circulate some air, turn on the vent.", "reasoning": "Mention of stuffy air or a need for fresh air suggests activating the vent.", "intent": "vent_on"}
+{"instruction": "Can you open the vent to improve airflow?", "reasoning": "The user wants to improve air quality or air flow. The ventilation system should be turned on.", "intent": "vent_on"}
+{"instruction": "I want to ventilate the room, turn on the vent.", "reasoning": "The user wants to improve air quality or air flow. The ventilation system should be turned on.", "intent": "vent_on"}
+{"instruction": "It's humid, turn on the vent to reduce moisture.", "reasoning": "The system needs to start the ventilation to circulate air as requested.", "intent": "vent_on"}
+{"instruction": "Switch on the vent, it's getting stuffy.", "reasoning": "The system needs to start the ventilation to circulate air as requested.", "intent": "vent_on"}
+{"instruction": "Turn off the vent in the bathroom.", "reasoning": "The user wants to close the ventilation or stop the flow, so the vent should be switched off.", "intent": "vent_off"}
+{"instruction": "Please deactivate the ventilation in the kitchen.", "reasoning": "The air is clear or the user no longer needs air circulation. The vent should be turned off.", "intent": "vent_off"}
+{"instruction": "It's breezy now, can you turn off the vent?", "reasoning": "The air is clear or the user no longer needs air circulation. The vent should be turned off.", "intent": "vent_off"}
+{"instruction": "Turn off the ventilation, it's too windy.", "reasoning": "The air is clear or the user no longer needs air circulation. The vent should be turned off.", "intent": "vent_off"}
+{"instruction": "Deactivate the vent in the basement, please.", "reasoning": "The air is clear or the user no longer needs air circulation. The vent should be turned off.", "intent": "vent_off"}
+{"instruction": "Time to stop circulating air, turn off the vent.", "reasoning": "The air is clear or the user no longer needs air circulation. The vent should be turned off.", "intent": "vent_off"}
+{"instruction": "Can you close the vent to prevent drafts?", "reasoning": "The request is to stop the ventilation fan. Deactivating the vent is the correct step.", "intent": "vent_off"}
+{"instruction": "I want to stop ventilating the room, turn off the vent.", "reasoning": "The request is to stop the ventilation fan. Deactivating the vent is the correct step.", "intent": "vent_off"}
+{"instruction": "It's dry, turn off the vent to retain moisture.", "reasoning": "The request is to stop the ventilation fan. Deactivating the vent is the correct step.", "intent": "vent_off"}
+{"instruction": "Switch off the vent, it's becoming too breezy.", "reasoning": "The request is to stop the ventilation fan. Deactivating the vent is the correct step.", "intent": "vent_off"}
+{"instruction": "Turn on the fan in the bedroom.", "reasoning": "The request is a command to start the fan motor for circulation.", "intent": "fan_on"}
+{"instruction": "Please activate the fan in the living room.", "reasoning": "The request is a command to start the fan motor for circulation.", "intent": "fan_on"}
+{"instruction": "It's warm in here, can you turn on the fan?", "reasoning": "The request is a command to start the fan motor for circulation.", "intent": "fan_on"}
+{"instruction": "Turn on the fan, I need some air circulation.", "reasoning": "The request is a command to start the fan motor for circulation.", "intent": "fan_on"}
+{"instruction": "Activate the fan in the office, please.", "reasoning": "The request is a command to start the fan motor for circulation.", "intent": "fan_on"}
+{"instruction": "Time to create some airflow, turn on the fan.", "reasoning": "The user wants a breeze or to cool down slightly. The fan should be turned on.", "intent": "fan_on"}
+{"instruction": "Can you adjust the fan speed to low?", "reasoning": "The user wants to stop the air movement. Switching off the fan is the required action.", "intent": "fan_off"}
+{"instruction": "I want to feel a breeze, turn on the fan.", "reasoning": "The request is a command to start the fan motor for circulation.", "intent": "fan_on"}
+{"instruction": "It's stuffy, turn on the fan for ventilation.", "reasoning": "To increase local airflow and comfort, the system should activate the fan.", "intent": "fan_on"}
+{"instruction": "Switch on the fan, it's getting hot.", "reasoning": "The user wants a breeze or to cool down slightly. The fan should be turned on.", "intent": "fan_on"}
+{"instruction": "Turn off the fan in the bedroom.", "reasoning": "The user wants to stop the air movement. Switching off the fan is the required action.", "intent": "fan_off"}
+{"instruction": "Please deactivate the fan in the living room.", "reasoning": "The user wants to stop the air movement. Switching off the fan is the required action.", "intent": "fan_off"}
+{"instruction": "It's getting cold, can you turn off the fan?", "reasoning": "The user wants to stop the air movement. Switching off the fan is the required action.", "intent": "fan_off"}
+{"instruction": "Turn off the fan, it's too noisy.", "reasoning": "The fan is no longer needed for comfort. The system should turn it off.", "intent": "fan_off"}
+{"instruction": "Deactivate the fan in the office, please.", "reasoning": "The fan is no longer needed for comfort. The system should turn it off.", "intent": "fan_off"}
+{"instruction": "Time to stop airflow, turn off the fan.", "reasoning": "The fan is no longer needed for comfort. The system should turn it off.", "intent": "fan_off"}
+{"instruction": "Can you adjust the fan speed to low?", "reasoning": "The user wants to stop the air movement. Switching off the fan is the required action.", "intent": "fan_off"}
+{"instruction": "I want to feel quieter, turn off the fan.", "reasoning": "The fan is no longer needed for comfort. The system should turn it off.", "intent": "fan_off"}
+{"instruction": "It's too breezy, turn off the fan.", "reasoning": "The user wants to stop the air movement. Switching off the fan is the required action.", "intent": "fan_off"}
+{"instruction": "Switch off the fan, it's too windy.", "reasoning": "To save energy or reduce noise, the fan should be deactivated.", "intent": "fan_off"}
+{"instruction": "Turn on the heater in the bedroom.", "reasoning": "The user is feeling cold or wants to increase the temperature. The heater should be turned on.", "intent": "heater_on"}
+{"instruction": "Please switch on the heater in the living room.", "reasoning": "The user is feeling cold or wants to increase the temperature. The heater should be turned on.", "intent": "heater_on"}
+{"instruction": "It's a bit chilly, can you turn on the heater?", "reasoning": "To reach a comfortable warm temperature, the system must switch on the heater.", "intent": "heater_on"}
+{"instruction": "Activate the heater in the office, please.", "reasoning": "The request indicates a need for warmth. Activating the heating system is the correct response.", "intent": "heater_on"}
+{"instruction": "Time to warm up, turn on the heater.", "reasoning": "The request indicates a need for warmth. Activating the heating system is the correct response.", "intent": "heater_on"}
+{"instruction": "It's cold, turn on the heater.", "reasoning": "To reach a comfortable warm temperature, the system must switch on the heater.", "intent": "heater_on"}
+{"instruction": "Can you adjust the thermostat to heat the room?", "reasoning": "The request indicates a need for warmth. Activating the heating system is the correct response.", "intent": "heater_on"}
+{"instruction": "I want to feel warmer, turn on the heater.", "reasoning": "To reach a comfortable warm temperature, the system must switch on the heater.", "intent": "heater_on"}
+{"instruction": "It's freezing, turn on the heater.", "reasoning": "The request indicates a need for warmth. Activating the heating system is the correct response.", "intent": "heater_on"}
+{"instruction": "Switch on the heater, I'm feeling cold.", "reasoning": "The user is feeling cold or wants to increase the temperature. The heater should be turned on.", "intent": "heater_on"}
+{"instruction": "Turn off the heater in the bedroom.", "reasoning": "The room is warm enough or the user wants to stop heating. The heater should be turned off.", "intent": "heater_off"}
+{"instruction": "Please switch off the heater in the living room.", "reasoning": "The instruction is to stop the heating process, necessitating heater deactivation.", "intent": "heater_off"}
+{"instruction": "It's warm now, can you turn off the heater?", "reasoning": "The room is warm enough or the user wants to stop heating. The heater should be turned off.", "intent": "heater_off"}
+{"instruction": "Deactivate the heater in the office, please.", "reasoning": "The room is warm enough or the user wants to stop heating. The heater should be turned off.", "intent": "heater_off"}
+{"instruction": "Time to cool down, turn off the heater.", "reasoning": "The room is warm enough or the user wants to stop heating. The heater should be turned off.", "intent": "heater_off"}
+{"instruction": "It's too hot, turn off the heater.", "reasoning": "The room is warm enough or the user wants to stop heating. The heater should be turned off.", "intent": "heater_off"}
+{"instruction": "Can you adjust the thermostat to turn off the heater?", "reasoning": "The instruction is to stop the heating process, necessitating heater deactivation.", "intent": "heater_off"}
+{"instruction": "I want to lower the temperature, turn off the heater.", "reasoning": "The instruction is to stop the heating process, necessitating heater deactivation.", "intent": "heater_off"}
+{"instruction": "It's comfortable now, turn off the heater.", "reasoning": "The instruction is to stop the heating process, necessitating heater deactivation.", "intent": "heater_off"}
+{"instruction": "Switch off the heater, it's too warm.", "reasoning": "The instruction is to stop the heating process, necessitating heater deactivation.", "intent": "heater_off"}
+{"instruction": "Turn on the multiplug in the bedroom.", "reasoning": "The request is to enable the power strip to provide electricity to connected items.", "intent": "multiplug_on"}
+{"instruction": "Please switch on the multiplug in the living room.", "reasoning": "The user needs to power multiple devices or a specific appliance connected to the strip. The multiplug should be turned on.", "intent": "multiplug_on"}
+{"instruction": "It's time to power up, can you turn on the multiplug?", "reasoning": "The user needs to power multiple devices or a specific appliance connected to the strip. The multiplug should be turned on.", "intent": "multiplug_on"}
+{"instruction": "Activate the multiplug in the office, please.", "reasoning": "The request is to enable the power strip to provide electricity to connected items.", "intent": "multiplug_on"}
+{"instruction": "Time to plug in, turn on the multiplug.", "reasoning": "To allow power flow to the connected appliances, the system should activate the multiplug.", "intent": "multiplug_on"}
+{"instruction": "It's power time, switch on the multiplug.", "reasoning": "To allow power flow to the connected appliances, the system should activate the multiplug.", "intent": "multiplug_on"}
+{"instruction": "Can you activate the power strip?", "reasoning": "To allow power flow to the connected appliances, the system should activate the multiplug.", "intent": "multiplug_on"}
+{"instruction": "I want to charge my devices, turn on the multiplug.", "reasoning": "To allow power flow to the connected appliances, the system should activate the multiplug.", "intent": "multiplug_on"}
+{"instruction": "It's time to connect, switch on the multiplug.", "reasoning": "To allow power flow to the connected appliances, the system should activate the multiplug.", "intent": "multiplug_on"}
+{"instruction": "Turn on the multiplug, I need to use some appliances.", "reasoning": "The user needs to power multiple devices or a specific appliance connected to the strip. The multiplug should be turned on.", "intent": "multiplug_on"}
+{"instruction": "Turn off the multiplug in the bedroom.", "reasoning": "The user wants to cut power to all connected devices. The multiplug should be turned off.", "intent": "multiplug_off"}
+{"instruction": "Please switch off the multiplug in the living room.", "reasoning": "To ensure safety or save standby power, the power strip should be deactivated.", "intent": "multiplug_off"}
+{"instruction": "It's time to power down, can you turn off the multiplug?", "reasoning": "The user wants to cut power to all connected devices. The multiplug should be turned off.", "intent": "multiplug_off"}
+{"instruction": "Deactivate the multiplug in the office, please.", "reasoning": "The user wants to cut power to all connected devices. The multiplug should be turned off.", "intent": "multiplug_off"}
+{"instruction": "Time to unplug, turn off the multiplug.", "reasoning": "To ensure safety or save standby power, the power strip should be deactivated.", "intent": "multiplug_off"}
+{"instruction": "It's time to disconnect, switch off the multiplug.", "reasoning": "The request is to stop the electrical supply at the multiplug level.", "intent": "multiplug_off"}
+{"instruction": "Can you deactivate the power strip?", "reasoning": "To ensure safety or save standby power, the power strip should be deactivated.", "intent": "multiplug_off"}
+{"instruction": "I want to stop charging, turn off the multiplug.", "reasoning": "To ensure safety or save standby power, the power strip should be deactivated.", "intent": "multiplug_off"}
+{"instruction": "It's time to unplug devices, switch off the multiplug.", "reasoning": "The request is to stop the electrical supply at the multiplug level.", "intent": "multiplug_off"}
+{"instruction": "Turn off the multiplug, I don't need any appliances.", "reasoning": "The request is to stop the electrical supply at the multiplug level.", "intent": "multiplug_off"}
+{"instruction": "Turn on the TV in the bedroom.", "reasoning": "To provide visual and audio content as requested, the system should enable the TV.", "intent": "tv_on"}
+{"instruction": "Please switch on the TV in the living room.", "reasoning": "To provide visual and audio content as requested, the system should enable the TV.", "intent": "tv_on"}
+{"instruction": "It's time to watch TV, can you turn on the TV?", "reasoning": "The user wants to watch a program or needs entertainment. The TV should be turned on.", "intent": "tv_on"}
+{"instruction": "Activate the TV in the office, please.", "reasoning": "The request is a direct command to start the television for viewing.", "intent": "tv_on"}
+{"instruction": "It's movie night, turn on the TV.", "reasoning": "The request is a direct command to start the television for viewing.", "intent": "tv_on"}
+{"instruction": "Can you flip the switch to turn on the TV?", "reasoning": "To provide visual and audio content as requested, the system should enable the TV.", "intent": "tv_on"}
+{"instruction": "Time to catch up on shows, switch on the TV.", "reasoning": "The user wants to watch a program or needs entertainment. The TV should be turned on.", "intent": "tv_on"}
+{"instruction": "I want to relax and watch TV, turn on the TV.", "reasoning": "To provide visual and audio content as requested, the system should enable the TV.", "intent": "tv_on"}
+{"instruction": "It's time for entertainment, turn on the TV.", "reasoning": "The user wants to watch a program or needs entertainment. The TV should be turned on.", "intent": "tv_on"}
+{"instruction": "Switch on the TV, I want to see the news.", "reasoning": "The user wants to watch a program or needs entertainment. The TV should be turned on.", "intent": "tv_on"}
+{"instruction": "Turn off the TV in the bedroom.", "reasoning": "To save energy or end the session, the television should be deactivated.", "intent": "tv_off"}
+{"instruction": "Please switch off the TV in the living room.", "reasoning": "The user is done watching or is going to bed. The TV should be turned off.", "intent": "tv_off"}
+{"instruction": "It's time to sleep, can you turn off the TV?", "reasoning": "The user is done watching or is going to bed. The TV should be turned off.", "intent": "tv_off"}
+{"instruction": "Deactivate the TV in the office, please.", "reasoning": "To save energy or end the session, the television should be deactivated.", "intent": "tv_off"}
+{"instruction": "It's bedtime, turn off the TV.", "reasoning": "The request is to stop the television broadcast. Switching off the TV is the correct action.", "intent": "tv_off"}
+{"instruction": "Can you flip the switch to turn off the TV?", "reasoning": "The user is done watching or is going to bed. The TV should be turned off.", "intent": "tv_off"}
+{"instruction": "Time to relax without TV, switch off the TV.", "reasoning": "The user is done watching or is going to bed. The TV should be turned off.", "intent": "tv_off"}
+{"instruction": "I want some peace and quiet, turn off the TV.", "reasoning": "The user is done watching or is going to bed. The TV should be turned off.", "intent": "tv_off"}
+{"instruction": "It's time to save energy, turn off the TV.", "reasoning": "The user is done watching or is going to bed. The TV should be turned off.", "intent": "tv_off"}
+{"instruction": "Switch off the TV, I'm done watching.", "reasoning": "To save energy or end the session, the television should be deactivated.", "intent": "tv_off"}

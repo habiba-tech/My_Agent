@@ -1,0 +1,141 @@
+text,intent
+"It's time to connect, switch on the multiplug.",multiplug_on
+"I want to feel a breeze, turn on the fan.",fan_on
+Please deactivate the AC in the bedroom.,ac_off
+"Turn off the multiplug, I don't need any appliances.",multiplug_off
+"It's stuffy in here, can you turn on the vent?",vent_on
+"It's too bright, can you dim the lights?",light_off
+Please switch on the heater in the living room.,heater_on
+"Switch on the fan, it's getting hot.",fan_on
+"Time to plug in, turn on the multiplug.",multiplug_on
+"Turn on the multiplug, I need to use some appliances.",multiplug_on
+"Deactivate the multiplug in the office, please.",multiplug_off
+Can you close the vent to prevent drafts?,vent_off
+Can you adjust the fan speed to high?,fan_on
+"Switch off the lights, I'm leaving the room.",light_off
+"It's time to sleep, can you turn off the TV?",tv_off
+"It's too breezy, turn off the fan.",fan_off
+Please switch off the lights in the living room.,light_off
+"I want to lower the temperature, turn on the AC.",ac_on
+"I want to relax and watch TV, turn on the TV.",tv_on
+Turn off the multiplug in the bedroom.,multiplug_off
+Can you adjust the thermostat to turn off the AC?,ac_off
+"It's time to unplug devices, switch off the multiplug.",multiplug_off
+Turn on the fan in the bedroom.,fan_on
+"Activate the lighting in the hallway, please.",light_on
+Please switch off the TV in the living room.,tv_off
+Can you adjust the thermostat to cool the room?,ac_on
+"It's time to save energy, turn off the TV.",tv_off
+Can you adjust the thermostat to turn off the heater?,heater_off
+Can you flip the switch to turn off the kitchen lights?,light_off
+"It's morning, turn off the porch lights.",light_off
+Turn off the lights in the bedroom.,light_off
+Please switch off the multiplug in the living room.,multiplug_off
+Please switch on the multiplug in the living room.,multiplug_on
+"Time to cool down, turn off the heater.",heater_off
+Please deactivate the ventilation in the kitchen.,vent_off
+"Time to circulate some air, turn on the vent.",vent_on
+"It's a bit chilly, can you turn on the heater?",heater_on
+"Time to relax without TV, switch off the TV.",tv_off
+"Time to create some airflow, turn on the fan.",fan_on
+Turn on the lights in the bedroom.,light_on
+"Time to stop circulating air, turn off the vent.",vent_off
+"It's sweltering, turn on the air conditioning unit.",ac_on
+Turn on the vent in the bathroom.,vent_on
+"Activate the air conditioning in the office, please.",ac_on
+"Deactivate the heater in the office, please.",heater_off
+"Time to catch up on shows, switch on the TV.",tv_on
+"It's time to power down, can you turn off the multiplug?",multiplug_off
+"Activate the fan in the office, please.",fan_on
+"Activate the vent in the basement, please.",vent_on
+"Time to dim the lights, it's movie night.",light_off
+"Switch on the heater, I'm feeling cold.",heater_on
+"Switch off the AC, it's too cold.",ac_off
+"It's hot in here, can you cool down the room?",ac_on
+"It's power time, switch on the multiplug.",multiplug_on
+Can you adjust the fan speed to low?,fan_off
+Turn on the multiplug in the bedroom.,multiplug_on
+"I want to ventilate the room, turn on the vent.",vent_on
+Turn off the air conditioning in the living room.,ac_off
+"Activate the heater in the office, please.",heater_on
+"Turn off the fan, it's too noisy.",fan_off
+"Switch on the lights, I'm having trouble seeing.",light_on
+"Turn off the AC, the room is freezing.",ac_off
+"I want to feel quieter, turn off the fan.",fan_off
+"Time to chill, turn on the air conditioning.",ac_on
+Can you adjust the thermostat to heat the room?,heater_on
+"It's warm in here, can you turn on the fan?",fan_on
+"It's stuffy, turn on the fan for ventilation.",fan_on
+Can you flip the switch to turn off the TV?,tv_off
+"Turn off the ventilation, it's too windy.",vent_off
+"Time to brighten up the space, turn on the lights.",light_on
+Turn on the heater in the bedroom.,heater_on
+"It's cold, turn on the heater.",heater_on
+"Switch on the vent, it's getting stuffy.",vent_on
+"Time to warm up, turn off the air conditioning.",ac_off
+"Deactivate the air conditioning in the office, please.",ac_off
+"I want to lower the temperature, turn off the heater.",heater_off
+"I want to see better, turn on the lights.",light_on
+"Turn on the ventilation, the air feels stale.",vent_on
+Turn off the fan in the bedroom.,fan_off
+"Time to warm up, turn on the heater.",heater_on
+"I want to stop charging, turn off the multiplug.",multiplug_off
+"Activate the TV in the office, please.",tv_on
+"It's getting dark outside, turn on the porch lights.",light_on
+"Turn off the lights, it's bedtime.",light_off
+"Deactivate the TV in the office, please.",tv_off
+"Turn on the lights, I need better visibility.",light_on
+"I want to conserve energy, turn off the lights.",light_off
+"It's comfortable now, turn off the air conditioning unit.",ac_off
+"It's getting cold, can you turn off the fan?",fan_off
+"Time to unplug, turn off the multiplug.",multiplug_off
+Can you flip the switch to light up the kitchen?,light_on
+"It's too hot, turn off the heater.",heater_off
+Can you flip the switch to turn on the TV?,tv_on
+"Switch on the TV, I want to see the news.",tv_on
+"Deactivate the vent in the basement, please.",vent_off
+Turn off the vent in the bathroom.,vent_off
+"It's comfortable now, turn off the heater.",heater_off
+Can you open the vent to improve airflow?,vent_on
+"It's time for entertainment, turn on the TV.",tv_on
+Please activate the fan in the living room.,fan_on
+"I want some peace and quiet, turn off the TV.",tv_off
+"Switch off the fan, it's too windy.",fan_off
+"It's time to disconnect, switch off the multiplug.",multiplug_off
+Please switch off the heater in the living room.,heater_off
+Please activate the ventilation in the kitchen.,vent_on
+"It's dry, turn off the vent to retain moisture.",vent_off
+Turn off the heater in the bedroom.,heater_off
+"It's humid, turn on the vent to reduce moisture.",vent_on
+"It's freezing, turn on the heater.",heater_on
+Turn on the TV in the bedroom.,tv_on
+"It's movie night, turn on the TV.",tv_on
+"I want to stop ventilating the room, turn off the vent.",vent_off
+"Time to stop airflow, turn off the fan.",fan_off
+"It's cold now, can you turn off the AC?",ac_off
+"It's bedtime, turn off the TV.",tv_off
+"Switch off the vent, it's becoming too breezy.",vent_off
+"Turn on the fan, I need some air circulation.",fan_on
+"It's time to watch TV, can you turn on the TV?",tv_on
+"I want to raise the temperature, turn off the AC.",ac_off
+"Switch on the AC, it's getting humid.",ac_on
+"I want to charge my devices, turn on the multiplug.",multiplug_on
+Turn off the TV in the bedroom.,tv_off
+Please switch on the lights in the living room.,light_on
+"It's breezy now, can you turn off the vent?",vent_off
+Please activate the AC in the bedroom.,ac_on
+"It's a bit dark here, can you illuminate the room?",light_on
+"Turn on the AC, it's too warm.",ac_on
+"Activate the multiplug in the office, please.",multiplug_on
+"Switch off the heater, it's too warm.",heater_off
+Can you deactivate the power strip?,multiplug_off
+"I want to feel warmer, turn on the heater.",heater_on
+"Deactivate the fan in the office, please.",fan_off
+Please switch on the TV in the living room.,tv_on
+"Switch off the TV, I'm done watching.",tv_off
+Turn on the air conditioning in the living room.,ac_on
+Please deactivate the fan in the living room.,fan_off
+Can you activate the power strip?,multiplug_on
+"Deactivate the lighting in the hallway, please.",light_off
+"It's warm now, can you turn off the heater?",heater_off
+"It's time to power up, can you turn on the multiplug?",multiplug_on
