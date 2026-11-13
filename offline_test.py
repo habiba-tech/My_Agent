@@ -5,16 +5,13 @@ from vosk import Model, KaldiRecognizer
 
 print("Loading Vosk model...")
 model = Model("vosk-model-small-en-us-0.15")
+recognizer = KaldiRecognizer(model, 16000)
 
-print("Jarvis is ready!")
-print("Get ready to speak...")
-
-input("Press ENTER to start recording...")
-
-print("NOW SPEAK: Hello Jarvis")
+print("Vosk is ready!")
+print("\nSpeak clearly for 5 seconds...")
 
 audio = sd.rec(
-    int(6 * 16000),
+    int(5 * 16000),
     samplerate=16000,
     channels=1,
     dtype="int16",
@@ -23,11 +20,16 @@ audio = sd.rec(
 
 sd.wait()
 
-recognizer = KaldiRecognizer(model, 16000)
-recognizer.SetWords(True)
-recognizer.AcceptWaveform(audio.tobytes())
+print("\nProcessing audio...")
 
-result = json.loads(recognizer.FinalResult())
+for i in range(0, len(audio), 4000):
+    chunk = audio[i:i + 4000].tobytes()
 
-print("\nYou said:", result["text"])
-print("Confidence details:", result.get("result", []))
+    if recognizer.AcceptWaveform(chunk):
+        result = json.loads(recognizer.Result())
+        print("Recognized:", result.get("text", ""))
+
+final_result = json.loads(recognizer.FinalResult())
+
+print("\nFinal Vosk result:")
+print(final_result.get("text", ""))

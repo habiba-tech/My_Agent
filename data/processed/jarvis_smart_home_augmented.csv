@@ -1,0 +1,1401 @@
+text,intent
+Turn on the lights in the bedroom.,light_on
+Please switch on the lights in the living room.,light_on
+"It's a bit dark here, can you illuminate the room?",light_on
+"Turn on the lights, I need better visibility.",light_on
+"Activate the lighting in the hallway, please.",light_on
+"Time to brighten up the space, turn on the lights.",light_on
+Can you flip the switch to light up the kitchen?,light_on
+"I want to see better, turn on the lights.",light_on
+"It's getting dark outside, turn on the porch lights.",light_on
+"Switch on the lights, I'm having trouble seeing.",light_on
+Is the sun gone already?,light_on
+Make it like daytime.,light_on
+Can't see my notes.,light_on
+Visibility is poor.,light_on
+I'm fumbling around here.,light_on
+It's too dark in here,light_on
+I can barely see anything,light_on
+This room needs more light,light_on
+The room is very dark,light_on
+I need some light in this room,light_on
+It's difficult to see in here,light_on
+The room could use some lighting,light_on
+I want the room to be brighter,light_on
+turn on the lights,light_on
+Please turn on the lights,light_on
+Can you turn on the lights,light_on
+Could you turn on the lights for me,light_on
+I want to turn on the lights,light_on
+I need you to turn on the lights,light_on
+Kindly turn on the lights,light_on
+Would you turn on the lights,light_on
+Make sure to turn on the lights,light_on
+Can you please turn on the lights,light_on
+Please make the lights on,light_on
+I would like the lights on,light_on
+Set the lights to on,light_on
+switch on the lights,light_on
+Please switch on the lights,light_on
+Can you switch on the lights,light_on
+Could you switch on the lights for me,light_on
+I want to switch on the lights,light_on
+I need you to switch on the lights,light_on
+Kindly switch on the lights,light_on
+Would you switch on the lights,light_on
+Make sure to switch on the lights,light_on
+Can you please switch on the lights,light_on
+activate the lights,light_on
+Please activate the lights,light_on
+Can you activate the lights,light_on
+Could you activate the lights for me,light_on
+I want to activate the lights,light_on
+I need you to activate the lights,light_on
+Kindly activate the lights,light_on
+Would you activate the lights,light_on
+Make sure to activate the lights,light_on
+Can you please activate the lights,light_on
+power on the lights,light_on
+Please power on the lights,light_on
+Can you power on the lights,light_on
+Could you power on the lights for me,light_on
+I want to power on the lights,light_on
+I need you to power on the lights,light_on
+Kindly power on the lights,light_on
+Would you power on the lights,light_on
+Make sure to power on the lights,light_on
+Can you please power on the lights,light_on
+start the lights,light_on
+Please start the lights,light_on
+Can you start the lights,light_on
+Could you start the lights for me,light_on
+I want to start the lights,light_on
+I need you to start the lights,light_on
+Kindly start the lights,light_on
+Would you start the lights,light_on
+Make sure to start the lights,light_on
+Can you please start the lights,light_on
+enable the lights,light_on
+Please enable the lights,light_on
+Can you enable the lights,light_on
+Could you enable the lights for me,light_on
+I want to enable the lights,light_on
+I need you to enable the lights,light_on
+Kindly enable the lights,light_on
+Would you enable the lights,light_on
+Make sure to enable the lights,light_on
+Can you please enable the lights,light_on
+turn on the room lights,light_on
+Please turn on the room lights,light_on
+Can you turn on the room lights,light_on
+Could you turn on the room lights for me,light_on
+I want to turn on the room lights,light_on
+I need you to turn on the room lights,light_on
+Kindly turn on the room lights,light_on
+Would you turn on the room lights,light_on
+Make sure to turn on the room lights,light_on
+Can you please turn on the room lights,light_on
+Please make the room lights on,light_on
+I would like the room lights on,light_on
+Set the room lights to on,light_on
+switch on the room lights,light_on
+Turn off the lights in the bedroom.,light_off
+Please switch off the lights in the living room.,light_off
+"It's too bright, can you dim the lights?",light_off
+"Turn off the lights, it's bedtime.",light_off
+"Deactivate the lighting in the hallway, please.",light_off
+"Time to dim the lights, it's movie night.",light_off
+Can you flip the switch to turn off the kitchen lights?,light_off
+"I want to conserve energy, turn off the lights.",light_off
+"It's morning, turn off the porch lights.",light_off
+"Switch off the lights, I'm leaving the room.",light_off
+Douse the room.,light_off
+It's too bright in here.,light_off
+The glare is hurting my eyes.,light_off
+I'm heading to sleep.,light_off
+Enough light for now.,light_off
+The room is too bright,light_off
+I want some darkness in here,light_off
+The lights are disturbing me,light_off
+It's bright enough in this room,light_off
+I don't need the lighting anymore,light_off
+The room should be darker,light_off
+I want to save electricity by switching off the lights,light_off
+The lights are bothering me,light_off
+turn off the lights,light_off
+Please turn off the lights,light_off
+Can you turn off the lights,light_off
+Could you turn off the lights for me,light_off
+I want to turn off the lights,light_off
+I need you to turn off the lights,light_off
+Kindly turn off the lights,light_off
+Would you turn off the lights,light_off
+Make sure to turn off the lights,light_off
+Can you please turn off the lights,light_off
+Please make the lights off,light_off
+I would like the lights off,light_off
+Set the lights to off,light_off
+switch off the lights,light_off
+Please switch off the lights,light_off
+Can you switch off the lights,light_off
+Could you switch off the lights for me,light_off
+I want to switch off the lights,light_off
+I need you to switch off the lights,light_off
+Kindly switch off the lights,light_off
+Would you switch off the lights,light_off
+Make sure to switch off the lights,light_off
+Can you please switch off the lights,light_off
+deactivate the lights,light_off
+Please deactivate the lights,light_off
+Can you deactivate the lights,light_off
+Could you deactivate the lights for me,light_off
+I want to deactivate the lights,light_off
+I need you to deactivate the lights,light_off
+Kindly deactivate the lights,light_off
+Would you deactivate the lights,light_off
+Make sure to deactivate the lights,light_off
+Can you please deactivate the lights,light_off
+power off the lights,light_off
+Please power off the lights,light_off
+Can you power off the lights,light_off
+Could you power off the lights for me,light_off
+I want to power off the lights,light_off
+I need you to power off the lights,light_off
+Kindly power off the lights,light_off
+Would you power off the lights,light_off
+Make sure to power off the lights,light_off
+Can you please power off the lights,light_off
+shut off the lights,light_off
+Please shut off the lights,light_off
+Can you shut off the lights,light_off
+Could you shut off the lights for me,light_off
+I want to shut off the lights,light_off
+I need you to shut off the lights,light_off
+Kindly shut off the lights,light_off
+Would you shut off the lights,light_off
+Make sure to shut off the lights,light_off
+Can you please shut off the lights,light_off
+disable the lights,light_off
+Please disable the lights,light_off
+Can you disable the lights,light_off
+Could you disable the lights for me,light_off
+I want to disable the lights,light_off
+I need you to disable the lights,light_off
+Kindly disable the lights,light_off
+Would you disable the lights,light_off
+Make sure to disable the lights,light_off
+Can you please disable the lights,light_off
+turn off the room lights,light_off
+Please turn off the room lights,light_off
+Can you turn off the room lights,light_off
+Could you turn off the room lights for me,light_off
+I want to turn off the room lights,light_off
+I need you to turn off the room lights,light_off
+Kindly turn off the room lights,light_off
+Would you turn off the room lights,light_off
+Make sure to turn off the room lights,light_off
+Can you please turn off the room lights,light_off
+Please make the room lights off,light_off
+I would like the room lights off,light_off
+Set the room lights to off,light_off
+switch off the room lights,light_off
+Turn on the air conditioning in the living room.,ac_on
+Please activate the AC in the bedroom.,ac_on
+"It's hot in here, can you cool down the room?",ac_on
+"Turn on the AC, it's too warm.",ac_on
+"Activate the air conditioning in the office, please.",ac_on
+"Time to chill, turn on the air conditioning.",ac_on
+Can you adjust the thermostat to cool the room?,ac_on
+"I want to lower the temperature, turn on the AC.",ac_on
+"It's sweltering, turn on the air conditioning unit.",ac_on
+"Switch on the AC, it's getting humid.",ac_on
+I'm sweating through my shirt.,ac_on
+Is it summer in here?,ac_on
+Lower the temp immediately.,ac_on
+It's like a sauna.,ac_on
+Need a cold blast.,ac_on
+It's too hot in this room,ac_on
+This room needs cooling,ac_on
+I'm sweating because of the heat,ac_on
+The room feels very warm,ac_on
+I need some cool air,ac_on
+It's getting uncomfortable because of the heat,ac_on
+The temperature is too high,ac_on
+I wish this room were cooler,ac_on
+turn on the AC,ac_on
+Please turn on the AC,ac_on
+Can you turn on the AC,ac_on
+Could you turn on the AC for me,ac_on
+I want to turn on the AC,ac_on
+I need you to turn on the AC,ac_on
+Kindly turn on the AC,ac_on
+Would you turn on the AC,ac_on
+Make sure to turn on the AC,ac_on
+Can you please turn on the AC,ac_on
+Please make the AC on,ac_on
+I would like the AC on,ac_on
+Set the AC to on,ac_on
+switch on the AC,ac_on
+Please switch on the AC,ac_on
+Can you switch on the AC,ac_on
+Could you switch on the AC for me,ac_on
+I want to switch on the AC,ac_on
+I need you to switch on the AC,ac_on
+Kindly switch on the AC,ac_on
+Would you switch on the AC,ac_on
+Make sure to switch on the AC,ac_on
+Can you please switch on the AC,ac_on
+activate the AC,ac_on
+Please activate the AC,ac_on
+Can you activate the AC,ac_on
+Could you activate the AC for me,ac_on
+I want to activate the AC,ac_on
+I need you to activate the AC,ac_on
+Kindly activate the AC,ac_on
+Would you activate the AC,ac_on
+Make sure to activate the AC,ac_on
+Can you please activate the AC,ac_on
+power on the AC,ac_on
+Please power on the AC,ac_on
+Can you power on the AC,ac_on
+Could you power on the AC for me,ac_on
+I want to power on the AC,ac_on
+I need you to power on the AC,ac_on
+Kindly power on the AC,ac_on
+Would you power on the AC,ac_on
+Make sure to power on the AC,ac_on
+Can you please power on the AC,ac_on
+start the AC,ac_on
+Please start the AC,ac_on
+Can you start the AC,ac_on
+Could you start the AC for me,ac_on
+I want to start the AC,ac_on
+I need you to start the AC,ac_on
+Kindly start the AC,ac_on
+Would you start the AC,ac_on
+Make sure to start the AC,ac_on
+Can you please start the AC,ac_on
+enable the AC,ac_on
+Please enable the AC,ac_on
+Can you enable the AC,ac_on
+Could you enable the AC for me,ac_on
+I want to enable the AC,ac_on
+I need you to enable the AC,ac_on
+Kindly enable the AC,ac_on
+Would you enable the AC,ac_on
+Make sure to enable the AC,ac_on
+Can you please enable the AC,ac_on
+turn on the air conditioner,ac_on
+Please turn on the air conditioner,ac_on
+Can you turn on the air conditioner,ac_on
+Could you turn on the air conditioner for me,ac_on
+I want to turn on the air conditioner,ac_on
+I need you to turn on the air conditioner,ac_on
+Kindly turn on the air conditioner,ac_on
+Would you turn on the air conditioner,ac_on
+Make sure to turn on the air conditioner,ac_on
+Can you please turn on the air conditioner,ac_on
+Please make the air conditioner on,ac_on
+I would like the air conditioner on,ac_on
+Set the air conditioner to on,ac_on
+switch on the air conditioner,ac_on
+Turn off the air conditioning in the living room.,ac_off
+Please deactivate the AC in the bedroom.,ac_off
+"It's cold now, can you turn off the AC?",ac_off
+"Turn off the AC, the room is freezing.",ac_off
+"Deactivate the air conditioning in the office, please.",ac_off
+"Time to warm up, turn off the air conditioning.",ac_off
+Can you adjust the thermostat to turn off the AC?,ac_off
+"I want to raise the temperature, turn off the AC.",ac_off
+"It's comfortable now, turn off the air conditioning unit.",ac_off
+"Switch off the AC, it's too cold.",ac_off
+The cooling is too much.,ac_off
+I'm turning into an icicle.,ac_off
+Shut down the chill.,ac_off
+It's freezing in the living room.,ac_off
+"Stop the AC, I'm shivering.",ac_off
+The AC is making the room too cold,ac_off
+I don't need cooling anymore,ac_off
+The room is already cool enough,ac_off
+I'm feeling cold because of the AC,ac_off
+The cooling is too strong,ac_off
+This room is getting too chilly from the AC,ac_off
+The AC is making me uncomfortable,ac_off
+I want to stop the cooling,ac_off
+turn off the AC,ac_off
+Please turn off the AC,ac_off
+Can you turn off the AC,ac_off
+Could you turn off the AC for me,ac_off
+I want to turn off the AC,ac_off
+I need you to turn off the AC,ac_off
+Kindly turn off the AC,ac_off
+Would you turn off the AC,ac_off
+Make sure to turn off the AC,ac_off
+Can you please turn off the AC,ac_off
+Please make the AC off,ac_off
+I would like the AC off,ac_off
+Set the AC to off,ac_off
+switch off the AC,ac_off
+Please switch off the AC,ac_off
+Can you switch off the AC,ac_off
+Could you switch off the AC for me,ac_off
+I want to switch off the AC,ac_off
+I need you to switch off the AC,ac_off
+Kindly switch off the AC,ac_off
+Would you switch off the AC,ac_off
+Make sure to switch off the AC,ac_off
+Can you please switch off the AC,ac_off
+deactivate the AC,ac_off
+Please deactivate the AC,ac_off
+Can you deactivate the AC,ac_off
+Could you deactivate the AC for me,ac_off
+I want to deactivate the AC,ac_off
+I need you to deactivate the AC,ac_off
+Kindly deactivate the AC,ac_off
+Would you deactivate the AC,ac_off
+Make sure to deactivate the AC,ac_off
+Can you please deactivate the AC,ac_off
+power off the AC,ac_off
+Please power off the AC,ac_off
+Can you power off the AC,ac_off
+Could you power off the AC for me,ac_off
+I want to power off the AC,ac_off
+I need you to power off the AC,ac_off
+Kindly power off the AC,ac_off
+Would you power off the AC,ac_off
+Make sure to power off the AC,ac_off
+Can you please power off the AC,ac_off
+shut off the AC,ac_off
+Please shut off the AC,ac_off
+Can you shut off the AC,ac_off
+Could you shut off the AC for me,ac_off
+I want to shut off the AC,ac_off
+I need you to shut off the AC,ac_off
+Kindly shut off the AC,ac_off
+Would you shut off the AC,ac_off
+Make sure to shut off the AC,ac_off
+Can you please shut off the AC,ac_off
+disable the AC,ac_off
+Please disable the AC,ac_off
+Can you disable the AC,ac_off
+Could you disable the AC for me,ac_off
+I want to disable the AC,ac_off
+I need you to disable the AC,ac_off
+Kindly disable the AC,ac_off
+Would you disable the AC,ac_off
+Make sure to disable the AC,ac_off
+Can you please disable the AC,ac_off
+turn off the air conditioner,ac_off
+Please turn off the air conditioner,ac_off
+Can you turn off the air conditioner,ac_off
+Could you turn off the air conditioner for me,ac_off
+I want to turn off the air conditioner,ac_off
+I need you to turn off the air conditioner,ac_off
+Kindly turn off the air conditioner,ac_off
+Would you turn off the air conditioner,ac_off
+Make sure to turn off the air conditioner,ac_off
+Can you please turn off the air conditioner,ac_off
+Please make the air conditioner off,ac_off
+I would like the air conditioner off,ac_off
+Set the air conditioner to off,ac_off
+switch off the air conditioner,ac_off
+Turn on the vent in the bathroom.,vent_on
+Please activate the ventilation in the kitchen.,vent_on
+"It's stuffy in here, can you turn on the vent?",vent_on
+"Turn on the ventilation, the air feels stale.",vent_on
+"Activate the vent in the basement, please.",vent_on
+"Time to circulate some air, turn on the vent.",vent_on
+Can you open the vent to improve airflow?,vent_on
+"I want to ventilate the room, turn on the vent.",vent_on
+"It's humid, turn on the vent to reduce moisture.",vent_on
+"Switch on the vent, it's getting stuffy.",vent_on
+It smells like old socks.,vent_on
+Clear the kitchen smoke.,vent_on
+Get the air moving.,vent_on
+Need some fresh air.,vent_on
+It's stuffy.,vent_on
+The air in this room feels stale,vent_on
+This room needs better ventilation,vent_on
+The kitchen is full of smoke,vent_on
+There is too much cooking smell,vent_on
+The bathroom needs air circulation,vent_on
+The room feels stuffy,vent_on
+I need fresh air circulation,vent_on
+The air inside feels trapped,vent_on
+turn on the ventilation system,vent_on
+Please turn on the ventilation system,vent_on
+Can you turn on the ventilation system,vent_on
+Could you turn on the ventilation system for me,vent_on
+I want to turn on the ventilation system,vent_on
+I need you to turn on the ventilation system,vent_on
+Kindly turn on the ventilation system,vent_on
+Would you turn on the ventilation system,vent_on
+Make sure to turn on the ventilation system,vent_on
+Can you please turn on the ventilation system,vent_on
+Please make the ventilation system on,vent_on
+I would like the ventilation system on,vent_on
+Set the ventilation system to on,vent_on
+switch on the ventilation system,vent_on
+Please switch on the ventilation system,vent_on
+Can you switch on the ventilation system,vent_on
+Could you switch on the ventilation system for me,vent_on
+I want to switch on the ventilation system,vent_on
+I need you to switch on the ventilation system,vent_on
+Kindly switch on the ventilation system,vent_on
+Would you switch on the ventilation system,vent_on
+Make sure to switch on the ventilation system,vent_on
+Can you please switch on the ventilation system,vent_on
+activate the ventilation system,vent_on
+Please activate the ventilation system,vent_on
+Can you activate the ventilation system,vent_on
+Could you activate the ventilation system for me,vent_on
+I want to activate the ventilation system,vent_on
+I need you to activate the ventilation system,vent_on
+Kindly activate the ventilation system,vent_on
+Would you activate the ventilation system,vent_on
+Make sure to activate the ventilation system,vent_on
+Can you please activate the ventilation system,vent_on
+power on the ventilation system,vent_on
+Please power on the ventilation system,vent_on
+Can you power on the ventilation system,vent_on
+Could you power on the ventilation system for me,vent_on
+I want to power on the ventilation system,vent_on
+I need you to power on the ventilation system,vent_on
+Kindly power on the ventilation system,vent_on
+Would you power on the ventilation system,vent_on
+Make sure to power on the ventilation system,vent_on
+Can you please power on the ventilation system,vent_on
+start the ventilation system,vent_on
+Please start the ventilation system,vent_on
+Can you start the ventilation system,vent_on
+Could you start the ventilation system for me,vent_on
+I want to start the ventilation system,vent_on
+I need you to start the ventilation system,vent_on
+Kindly start the ventilation system,vent_on
+Would you start the ventilation system,vent_on
+Make sure to start the ventilation system,vent_on
+Can you please start the ventilation system,vent_on
+enable the ventilation system,vent_on
+Please enable the ventilation system,vent_on
+Can you enable the ventilation system,vent_on
+Could you enable the ventilation system for me,vent_on
+I want to enable the ventilation system,vent_on
+I need you to enable the ventilation system,vent_on
+Kindly enable the ventilation system,vent_on
+Would you enable the ventilation system,vent_on
+Make sure to enable the ventilation system,vent_on
+Can you please enable the ventilation system,vent_on
+turn on the vent,vent_on
+Please turn on the vent,vent_on
+Can you turn on the vent,vent_on
+Could you turn on the vent for me,vent_on
+I want to turn on the vent,vent_on
+I need you to turn on the vent,vent_on
+Kindly turn on the vent,vent_on
+Would you turn on the vent,vent_on
+Make sure to turn on the vent,vent_on
+Can you please turn on the vent,vent_on
+Please make the vent on,vent_on
+I would like the vent on,vent_on
+Set the vent to on,vent_on
+switch on the vent,vent_on
+Turn off the vent in the bathroom.,vent_off
+Please deactivate the ventilation in the kitchen.,vent_off
+"It's breezy now, can you turn off the vent?",vent_off
+"Turn off the ventilation, it's too windy.",vent_off
+"Deactivate the vent in the basement, please.",vent_off
+"Time to stop circulating air, turn off the vent.",vent_off
+Can you close the vent to prevent drafts?,vent_off
+"I want to stop ventilating the room, turn off the vent.",vent_off
+"It's dry, turn off the vent to retain moisture.",vent_off
+"Switch off the vent, it's becoming too breezy.",vent_off
+Enough ventilation.,vent_off
+Quiet the vent fan.,vent_off
+Close the air intake.,vent_off
+The draft is bothering me.,vent_off
+The vent is making a racket.,vent_off
+Stop the air ventilation,vent_off
+I don't need ventilation anymore,vent_off
+The exhaust is no longer needed,vent_off
+The kitchen smoke has cleared,vent_off
+There is no need for air circulation now,vent_off
+I want to stop the exhaust,vent_off
+The ventilation can be stopped,vent_off
+Turn off the air circulation,vent_off
+turn off the ventilation system,vent_off
+Please turn off the ventilation system,vent_off
+Can you turn off the ventilation system,vent_off
+Could you turn off the ventilation system for me,vent_off
+I want to turn off the ventilation system,vent_off
+I need you to turn off the ventilation system,vent_off
+Kindly turn off the ventilation system,vent_off
+Would you turn off the ventilation system,vent_off
+Make sure to turn off the ventilation system,vent_off
+Can you please turn off the ventilation system,vent_off
+Please make the ventilation system off,vent_off
+I would like the ventilation system off,vent_off
+Set the ventilation system to off,vent_off
+switch off the ventilation system,vent_off
+Please switch off the ventilation system,vent_off
+Can you switch off the ventilation system,vent_off
+Could you switch off the ventilation system for me,vent_off
+I want to switch off the ventilation system,vent_off
+I need you to switch off the ventilation system,vent_off
+Kindly switch off the ventilation system,vent_off
+Would you switch off the ventilation system,vent_off
+Make sure to switch off the ventilation system,vent_off
+Can you please switch off the ventilation system,vent_off
+deactivate the ventilation system,vent_off
+Please deactivate the ventilation system,vent_off
+Can you deactivate the ventilation system,vent_off
+Could you deactivate the ventilation system for me,vent_off
+I want to deactivate the ventilation system,vent_off
+I need you to deactivate the ventilation system,vent_off
+Kindly deactivate the ventilation system,vent_off
+Would you deactivate the ventilation system,vent_off
+Make sure to deactivate the ventilation system,vent_off
+Can you please deactivate the ventilation system,vent_off
+power off the ventilation system,vent_off
+Please power off the ventilation system,vent_off
+Can you power off the ventilation system,vent_off
+Could you power off the ventilation system for me,vent_off
+I want to power off the ventilation system,vent_off
+I need you to power off the ventilation system,vent_off
+Kindly power off the ventilation system,vent_off
+Would you power off the ventilation system,vent_off
+Make sure to power off the ventilation system,vent_off
+Can you please power off the ventilation system,vent_off
+shut off the ventilation system,vent_off
+Please shut off the ventilation system,vent_off
+Can you shut off the ventilation system,vent_off
+Could you shut off the ventilation system for me,vent_off
+I want to shut off the ventilation system,vent_off
+I need you to shut off the ventilation system,vent_off
+Kindly shut off the ventilation system,vent_off
+Would you shut off the ventilation system,vent_off
+Make sure to shut off the ventilation system,vent_off
+Can you please shut off the ventilation system,vent_off
+disable the ventilation system,vent_off
+Please disable the ventilation system,vent_off
+Can you disable the ventilation system,vent_off
+Could you disable the ventilation system for me,vent_off
+I want to disable the ventilation system,vent_off
+I need you to disable the ventilation system,vent_off
+Kindly disable the ventilation system,vent_off
+Would you disable the ventilation system,vent_off
+Make sure to disable the ventilation system,vent_off
+Can you please disable the ventilation system,vent_off
+turn off the vent,vent_off
+Please turn off the vent,vent_off
+Can you turn off the vent,vent_off
+Could you turn off the vent for me,vent_off
+I want to turn off the vent,vent_off
+I need you to turn off the vent,vent_off
+Kindly turn off the vent,vent_off
+Would you turn off the vent,vent_off
+Make sure to turn off the vent,vent_off
+Can you please turn off the vent,vent_off
+Please make the vent off,vent_off
+I would like the vent off,vent_off
+Set the vent to off,vent_off
+switch off the vent,vent_off
+Turn on the fan in the bedroom.,fan_on
+Please activate the fan in the living room.,fan_on
+"It's warm in here, can you turn on the fan?",fan_on
+"Turn on the fan, I need some air circulation.",fan_on
+"Activate the fan in the office, please.",fan_on
+"Time to create some airflow, turn on the fan.",fan_on
+"I want to feel a breeze, turn on the fan.",fan_on
+"It's stuffy, turn on the fan for ventilation.",fan_on
+"Switch on the fan, it's getting hot.",fan_on
+Can you adjust the fan speed to high?,fan_on
+Make the air move.,fan_on
+"Just a little breeze, please.",fan_on
+Get some circulation.,fan_on
+Spin up the blades.,fan_on
+I need a light gust.,fan_on
+I need a breeze,fan_on
+There is no air moving in this room,fan_on
+I need some air on my face,fan_on
+The room feels warm and still,fan_on
+I wish there were more airflow from the fan,fan_on
+I need the fan running,fan_on
+It's uncomfortable without a breeze,fan_on
+I could use some air movement,fan_on
+turn on the fan,fan_on
+Please turn on the fan,fan_on
+Can you turn on the fan,fan_on
+Could you turn on the fan for me,fan_on
+I want to turn on the fan,fan_on
+I need you to turn on the fan,fan_on
+Kindly turn on the fan,fan_on
+Would you turn on the fan,fan_on
+Make sure to turn on the fan,fan_on
+Can you please turn on the fan,fan_on
+Please make the fan on,fan_on
+I would like the fan on,fan_on
+Set the fan to on,fan_on
+switch on the fan,fan_on
+Please switch on the fan,fan_on
+Can you switch on the fan,fan_on
+Could you switch on the fan for me,fan_on
+I want to switch on the fan,fan_on
+I need you to switch on the fan,fan_on
+Kindly switch on the fan,fan_on
+Would you switch on the fan,fan_on
+Make sure to switch on the fan,fan_on
+Can you please switch on the fan,fan_on
+activate the fan,fan_on
+Please activate the fan,fan_on
+Can you activate the fan,fan_on
+Could you activate the fan for me,fan_on
+I want to activate the fan,fan_on
+I need you to activate the fan,fan_on
+Kindly activate the fan,fan_on
+Would you activate the fan,fan_on
+Make sure to activate the fan,fan_on
+Can you please activate the fan,fan_on
+power on the fan,fan_on
+Please power on the fan,fan_on
+Can you power on the fan,fan_on
+Could you power on the fan for me,fan_on
+I want to power on the fan,fan_on
+I need you to power on the fan,fan_on
+Kindly power on the fan,fan_on
+Would you power on the fan,fan_on
+Make sure to power on the fan,fan_on
+Can you please power on the fan,fan_on
+start the fan,fan_on
+Please start the fan,fan_on
+Can you start the fan,fan_on
+Could you start the fan for me,fan_on
+I want to start the fan,fan_on
+I need you to start the fan,fan_on
+Kindly start the fan,fan_on
+Would you start the fan,fan_on
+Make sure to start the fan,fan_on
+Can you please start the fan,fan_on
+enable the fan,fan_on
+Please enable the fan,fan_on
+Can you enable the fan,fan_on
+Could you enable the fan for me,fan_on
+I want to enable the fan,fan_on
+I need you to enable the fan,fan_on
+Kindly enable the fan,fan_on
+Would you enable the fan,fan_on
+Make sure to enable the fan,fan_on
+Can you please enable the fan,fan_on
+turn on the ceiling fan,fan_on
+Please turn on the ceiling fan,fan_on
+Can you turn on the ceiling fan,fan_on
+Could you turn on the ceiling fan for me,fan_on
+I want to turn on the ceiling fan,fan_on
+I need you to turn on the ceiling fan,fan_on
+Kindly turn on the ceiling fan,fan_on
+Would you turn on the ceiling fan,fan_on
+Make sure to turn on the ceiling fan,fan_on
+Can you please turn on the ceiling fan,fan_on
+Please make the ceiling fan on,fan_on
+I would like the ceiling fan on,fan_on
+Set the ceiling fan to on,fan_on
+switch on the ceiling fan,fan_on
+Turn off the fan in the bedroom.,fan_off
+Please deactivate the fan in the living room.,fan_off
+"It's getting cold, can you turn off the fan?",fan_off
+"Turn off the fan, it's too noisy.",fan_off
+"Deactivate the fan in the office, please.",fan_off
+"Time to stop airflow, turn off the fan.",fan_off
+"I want to feel quieter, turn off the fan.",fan_off
+"It's too breezy, turn off the fan.",fan_off
+"Switch off the fan, it's too windy.",fan_off
+The fan is too loud.,fan_off
+No more breeze.,fan_off
+The fan is blowing my papers away.,fan_off
+Still the air.,fan_off
+Stop the rotating fan.,fan_off
+There is too much breeze,fan_off
+The fan is blowing too much air,fan_off
+I don't need the breeze anymore,fan_off
+The moving air is making me uncomfortable,fan_off
+The fan is disturbing me,fan_off
+I want the airflow to stop,fan_off
+It's too windy from the fan,fan_off
+I no longer need the fan,fan_off
+turn off the fan,fan_off
+Please turn off the fan,fan_off
+Can you turn off the fan,fan_off
+Could you turn off the fan for me,fan_off
+I want to turn off the fan,fan_off
+I need you to turn off the fan,fan_off
+Kindly turn off the fan,fan_off
+Would you turn off the fan,fan_off
+Make sure to turn off the fan,fan_off
+Can you please turn off the fan,fan_off
+Please make the fan off,fan_off
+I would like the fan off,fan_off
+Set the fan to off,fan_off
+switch off the fan,fan_off
+Please switch off the fan,fan_off
+Can you switch off the fan,fan_off
+Could you switch off the fan for me,fan_off
+I want to switch off the fan,fan_off
+I need you to switch off the fan,fan_off
+Kindly switch off the fan,fan_off
+Would you switch off the fan,fan_off
+Make sure to switch off the fan,fan_off
+Can you please switch off the fan,fan_off
+deactivate the fan,fan_off
+Please deactivate the fan,fan_off
+Can you deactivate the fan,fan_off
+Could you deactivate the fan for me,fan_off
+I want to deactivate the fan,fan_off
+I need you to deactivate the fan,fan_off
+Kindly deactivate the fan,fan_off
+Would you deactivate the fan,fan_off
+Make sure to deactivate the fan,fan_off
+Can you please deactivate the fan,fan_off
+power off the fan,fan_off
+Please power off the fan,fan_off
+Can you power off the fan,fan_off
+Could you power off the fan for me,fan_off
+I want to power off the fan,fan_off
+I need you to power off the fan,fan_off
+Kindly power off the fan,fan_off
+Would you power off the fan,fan_off
+Make sure to power off the fan,fan_off
+Can you please power off the fan,fan_off
+shut off the fan,fan_off
+Please shut off the fan,fan_off
+Can you shut off the fan,fan_off
+Could you shut off the fan for me,fan_off
+I want to shut off the fan,fan_off
+I need you to shut off the fan,fan_off
+Kindly shut off the fan,fan_off
+Would you shut off the fan,fan_off
+Make sure to shut off the fan,fan_off
+Can you please shut off the fan,fan_off
+disable the fan,fan_off
+Please disable the fan,fan_off
+Can you disable the fan,fan_off
+Could you disable the fan for me,fan_off
+I want to disable the fan,fan_off
+I need you to disable the fan,fan_off
+Kindly disable the fan,fan_off
+Would you disable the fan,fan_off
+Make sure to disable the fan,fan_off
+Can you please disable the fan,fan_off
+turn off the ceiling fan,fan_off
+Please turn off the ceiling fan,fan_off
+Can you turn off the ceiling fan,fan_off
+Could you turn off the ceiling fan for me,fan_off
+I want to turn off the ceiling fan,fan_off
+I need you to turn off the ceiling fan,fan_off
+Kindly turn off the ceiling fan,fan_off
+Would you turn off the ceiling fan,fan_off
+Make sure to turn off the ceiling fan,fan_off
+Can you please turn off the ceiling fan,fan_off
+Please make the ceiling fan off,fan_off
+I would like the ceiling fan off,fan_off
+Set the ceiling fan to off,fan_off
+switch off the ceiling fan,fan_off
+Please switch off the ceiling fan,fan_off
+Turn on the heater in the bedroom.,heater_on
+Please switch on the heater in the living room.,heater_on
+"It's a bit chilly, can you turn on the heater?",heater_on
+"Activate the heater in the office, please.",heater_on
+"Time to warm up, turn on the heater.",heater_on
+"It's cold, turn on the heater.",heater_on
+Can you adjust the thermostat to heat the room?,heater_on
+"I want to feel warmer, turn on the heater.",heater_on
+"It's freezing, turn on the heater.",heater_on
+"Switch on the heater, I'm feeling cold.",heater_on
+Get it to 75 degrees.,heater_on
+My toes are freezing.,heater_on
+I'm shivering.,heater_on
+Ignite the heat.,heater_on
+Needs some warmth.,heater_on
+I'm freezing and need some warmth,heater_on
+This room is extremely cold and needs heating,heater_on
+I need more warmth in this room,heater_on
+The room feels freezing,heater_on
+I can't get warm in here,heater_on
+It's very chilly and I need heating,heater_on
+I wish this room were warmer,heater_on
+The temperature is too low and I need heat,heater_on
+turn on the heater,heater_on
+Please turn on the heater,heater_on
+Can you turn on the heater,heater_on
+Could you turn on the heater for me,heater_on
+I want to turn on the heater,heater_on
+I need you to turn on the heater,heater_on
+Kindly turn on the heater,heater_on
+Would you turn on the heater,heater_on
+Make sure to turn on the heater,heater_on
+Can you please turn on the heater,heater_on
+Please make the heater on,heater_on
+I would like the heater on,heater_on
+Set the heater to on,heater_on
+switch on the heater,heater_on
+Please switch on the heater,heater_on
+Can you switch on the heater,heater_on
+Could you switch on the heater for me,heater_on
+I want to switch on the heater,heater_on
+I need you to switch on the heater,heater_on
+Kindly switch on the heater,heater_on
+Would you switch on the heater,heater_on
+Make sure to switch on the heater,heater_on
+Can you please switch on the heater,heater_on
+activate the heater,heater_on
+Please activate the heater,heater_on
+Can you activate the heater,heater_on
+Could you activate the heater for me,heater_on
+I want to activate the heater,heater_on
+I need you to activate the heater,heater_on
+Kindly activate the heater,heater_on
+Would you activate the heater,heater_on
+Make sure to activate the heater,heater_on
+Can you please activate the heater,heater_on
+power on the heater,heater_on
+Please power on the heater,heater_on
+Can you power on the heater,heater_on
+Could you power on the heater for me,heater_on
+I want to power on the heater,heater_on
+I need you to power on the heater,heater_on
+Kindly power on the heater,heater_on
+Would you power on the heater,heater_on
+Make sure to power on the heater,heater_on
+Can you please power on the heater,heater_on
+start the heater,heater_on
+Please start the heater,heater_on
+Can you start the heater,heater_on
+Could you start the heater for me,heater_on
+I want to start the heater,heater_on
+I need you to start the heater,heater_on
+Kindly start the heater,heater_on
+Would you start the heater,heater_on
+Make sure to start the heater,heater_on
+Can you please start the heater,heater_on
+enable the heater,heater_on
+Please enable the heater,heater_on
+Can you enable the heater,heater_on
+Could you enable the heater for me,heater_on
+I want to enable the heater,heater_on
+I need you to enable the heater,heater_on
+Kindly enable the heater,heater_on
+Would you enable the heater,heater_on
+Make sure to enable the heater,heater_on
+Can you please enable the heater,heater_on
+turn on the room heater,heater_on
+Please turn on the room heater,heater_on
+Can you turn on the room heater,heater_on
+Could you turn on the room heater for me,heater_on
+I want to turn on the room heater,heater_on
+I need you to turn on the room heater,heater_on
+Kindly turn on the room heater,heater_on
+Would you turn on the room heater,heater_on
+Make sure to turn on the room heater,heater_on
+Can you please turn on the room heater,heater_on
+Please make the room heater on,heater_on
+I would like the room heater on,heater_on
+Set the room heater to on,heater_on
+switch on the room heater,heater_on
+Turn off the heater in the bedroom.,heater_off
+Please switch off the heater in the living room.,heater_off
+"It's warm now, can you turn off the heater?",heater_off
+"Deactivate the heater in the office, please.",heater_off
+"Time to cool down, turn off the heater.",heater_off
+"It's too hot, turn off the heater.",heater_off
+Can you adjust the thermostat to turn off the heater?,heater_off
+"I want to lower the temperature, turn off the heater.",heater_off
+"It's comfortable now, turn off the heater.",heater_off
+"Switch off the heater, it's too warm.",heater_off
+It's getting stuffy and hot.,heater_off
+"Turn off the heat, I'm fine.",heater_off
+Heater is too high.,heater_off
+Stop the furnace.,heater_off
+I'm roasting now.,heater_off
+The heater is making the room too warm,heater_off
+I don't need heating anymore,heater_off
+The room is warm enough now,heater_off
+It's getting too hot from the heater,heater_off
+I want to stop the heating,heater_off
+The heater is no longer necessary,heater_off
+There is enough warmth in this room,heater_off
+The heating is making me uncomfortable,heater_off
+turn off the heater,heater_off
+Please turn off the heater,heater_off
+Can you turn off the heater,heater_off
+Could you turn off the heater for me,heater_off
+I want to turn off the heater,heater_off
+I need you to turn off the heater,heater_off
+Kindly turn off the heater,heater_off
+Would you turn off the heater,heater_off
+Make sure to turn off the heater,heater_off
+Can you please turn off the heater,heater_off
+Please make the heater off,heater_off
+I would like the heater off,heater_off
+Set the heater to off,heater_off
+switch off the heater,heater_off
+Please switch off the heater,heater_off
+Can you switch off the heater,heater_off
+Could you switch off the heater for me,heater_off
+I want to switch off the heater,heater_off
+I need you to switch off the heater,heater_off
+Kindly switch off the heater,heater_off
+Would you switch off the heater,heater_off
+Make sure to switch off the heater,heater_off
+Can you please switch off the heater,heater_off
+deactivate the heater,heater_off
+Please deactivate the heater,heater_off
+Can you deactivate the heater,heater_off
+Could you deactivate the heater for me,heater_off
+I want to deactivate the heater,heater_off
+I need you to deactivate the heater,heater_off
+Kindly deactivate the heater,heater_off
+Would you deactivate the heater,heater_off
+Make sure to deactivate the heater,heater_off
+Can you please deactivate the heater,heater_off
+power off the heater,heater_off
+Please power off the heater,heater_off
+Can you power off the heater,heater_off
+Could you power off the heater for me,heater_off
+I want to power off the heater,heater_off
+I need you to power off the heater,heater_off
+Kindly power off the heater,heater_off
+Would you power off the heater,heater_off
+Make sure to power off the heater,heater_off
+Can you please power off the heater,heater_off
+shut off the heater,heater_off
+Please shut off the heater,heater_off
+Can you shut off the heater,heater_off
+Could you shut off the heater for me,heater_off
+I want to shut off the heater,heater_off
+I need you to shut off the heater,heater_off
+Kindly shut off the heater,heater_off
+Would you shut off the heater,heater_off
+Make sure to shut off the heater,heater_off
+Can you please shut off the heater,heater_off
+disable the heater,heater_off
+Please disable the heater,heater_off
+Can you disable the heater,heater_off
+Could you disable the heater for me,heater_off
+I want to disable the heater,heater_off
+I need you to disable the heater,heater_off
+Kindly disable the heater,heater_off
+Would you disable the heater,heater_off
+Make sure to disable the heater,heater_off
+Can you please disable the heater,heater_off
+turn off the room heater,heater_off
+Please turn off the room heater,heater_off
+Can you turn off the room heater,heater_off
+Could you turn off the room heater for me,heater_off
+I want to turn off the room heater,heater_off
+I need you to turn off the room heater,heater_off
+Kindly turn off the room heater,heater_off
+Would you turn off the room heater,heater_off
+Make sure to turn off the room heater,heater_off
+Can you please turn off the room heater,heater_off
+Please make the room heater off,heater_off
+I would like the room heater off,heater_off
+Set the room heater to off,heater_off
+switch off the room heater,heater_off
+Turn on the multiplug in the bedroom.,multiplug_on
+Please switch on the multiplug in the living room.,multiplug_on
+"It's time to power up, can you turn on the multiplug?",multiplug_on
+"Activate the multiplug in the office, please.",multiplug_on
+"Time to plug in, turn on the multiplug.",multiplug_on
+"It's power time, switch on the multiplug.",multiplug_on
+Can you activate the power strip?,multiplug_on
+"I want to charge my devices, turn on the multiplug.",multiplug_on
+"It's time to connect, switch on the multiplug.",multiplug_on
+"Turn on the multiplug, I need to use some appliances.",multiplug_on
+My laptop is dying.,multiplug_on
+Energize the strip.,multiplug_on
+Charge everything.,multiplug_on
+Need juice for my gadgets.,multiplug_on
+Power up the workstation.,multiplug_on
+I need power from the extension board,multiplug_on
+Please restore power to the power strip,multiplug_on
+I need the connected sockets working,multiplug_on
+The extension board should supply electricity,multiplug_on
+I want to use the smart plug,multiplug_on
+Enable electricity to the power board,multiplug_on
+I need the power strip active,multiplug_on
+Restore the power supply to the multiplug,multiplug_on
+turn on the multiplug,multiplug_on
+Please turn on the multiplug,multiplug_on
+Can you turn on the multiplug,multiplug_on
+Could you turn on the multiplug for me,multiplug_on
+I want to turn on the multiplug,multiplug_on
+I need you to turn on the multiplug,multiplug_on
+Kindly turn on the multiplug,multiplug_on
+Would you turn on the multiplug,multiplug_on
+Make sure to turn on the multiplug,multiplug_on
+Can you please turn on the multiplug,multiplug_on
+Please make the multiplug on,multiplug_on
+I would like the multiplug on,multiplug_on
+Set the multiplug to on,multiplug_on
+switch on the multiplug,multiplug_on
+Please switch on the multiplug,multiplug_on
+Can you switch on the multiplug,multiplug_on
+Could you switch on the multiplug for me,multiplug_on
+I want to switch on the multiplug,multiplug_on
+I need you to switch on the multiplug,multiplug_on
+Kindly switch on the multiplug,multiplug_on
+Would you switch on the multiplug,multiplug_on
+Make sure to switch on the multiplug,multiplug_on
+Can you please switch on the multiplug,multiplug_on
+activate the multiplug,multiplug_on
+Please activate the multiplug,multiplug_on
+Can you activate the multiplug,multiplug_on
+Could you activate the multiplug for me,multiplug_on
+I want to activate the multiplug,multiplug_on
+I need you to activate the multiplug,multiplug_on
+Kindly activate the multiplug,multiplug_on
+Would you activate the multiplug,multiplug_on
+Make sure to activate the multiplug,multiplug_on
+Can you please activate the multiplug,multiplug_on
+power on the multiplug,multiplug_on
+Please power on the multiplug,multiplug_on
+Can you power on the multiplug,multiplug_on
+Could you power on the multiplug for me,multiplug_on
+I want to power on the multiplug,multiplug_on
+I need you to power on the multiplug,multiplug_on
+Kindly power on the multiplug,multiplug_on
+Would you power on the multiplug,multiplug_on
+Make sure to power on the multiplug,multiplug_on
+Can you please power on the multiplug,multiplug_on
+start the multiplug,multiplug_on
+Please start the multiplug,multiplug_on
+Can you start the multiplug,multiplug_on
+Could you start the multiplug for me,multiplug_on
+I want to start the multiplug,multiplug_on
+I need you to start the multiplug,multiplug_on
+Kindly start the multiplug,multiplug_on
+Would you start the multiplug,multiplug_on
+Make sure to start the multiplug,multiplug_on
+Can you please start the multiplug,multiplug_on
+enable the multiplug,multiplug_on
+Please enable the multiplug,multiplug_on
+Can you enable the multiplug,multiplug_on
+Could you enable the multiplug for me,multiplug_on
+I want to enable the multiplug,multiplug_on
+I need you to enable the multiplug,multiplug_on
+Kindly enable the multiplug,multiplug_on
+Would you enable the multiplug,multiplug_on
+Make sure to enable the multiplug,multiplug_on
+Can you please enable the multiplug,multiplug_on
+turn on the power strip,multiplug_on
+Please turn on the power strip,multiplug_on
+Can you turn on the power strip,multiplug_on
+Could you turn on the power strip for me,multiplug_on
+I want to turn on the power strip,multiplug_on
+I need you to turn on the power strip,multiplug_on
+Kindly turn on the power strip,multiplug_on
+Would you turn on the power strip,multiplug_on
+Make sure to turn on the power strip,multiplug_on
+Can you please turn on the power strip,multiplug_on
+Please make the power strip on,multiplug_on
+I would like the power strip on,multiplug_on
+Set the power strip to on,multiplug_on
+switch on the power strip,multiplug_on
+Turn off the multiplug in the bedroom.,multiplug_off
+Please switch off the multiplug in the living room.,multiplug_off
+"It's time to power down, can you turn off the multiplug?",multiplug_off
+"Deactivate the multiplug in the office, please.",multiplug_off
+"Time to unplug, turn off the multiplug.",multiplug_off
+"It's time to disconnect, switch off the multiplug.",multiplug_off
+Can you deactivate the power strip?,multiplug_off
+"I want to stop charging, turn off the multiplug.",multiplug_off
+"It's time to unplug devices, switch off the multiplug.",multiplug_off
+"Turn off the multiplug, I don't need any appliances.",multiplug_off
+Stop the charging.,multiplug_off
+I'm leaving the office.,multiplug_off
+Safe shutdown for the strip.,multiplug_off
+Unplug the desk power.,multiplug_off
+Kill the standby power.,multiplug_off
+Cut power to the extension board,multiplug_off
+I don't need electricity from the power strip,multiplug_off
+Stop supplying power to the multiplug,multiplug_off
+Disconnect the power board,multiplug_off
+The extension board is no longer needed,multiplug_off
+I want to stop the power supply to the sockets,multiplug_off
+Disable the smart plug,multiplug_off
+Stop the electricity supply to the power strip,multiplug_off
+turn off the multiplug,multiplug_off
+Please turn off the multiplug,multiplug_off
+Can you turn off the multiplug,multiplug_off
+Could you turn off the multiplug for me,multiplug_off
+I want to turn off the multiplug,multiplug_off
+I need you to turn off the multiplug,multiplug_off
+Kindly turn off the multiplug,multiplug_off
+Would you turn off the multiplug,multiplug_off
+Make sure to turn off the multiplug,multiplug_off
+Can you please turn off the multiplug,multiplug_off
+Please make the multiplug off,multiplug_off
+I would like the multiplug off,multiplug_off
+Set the multiplug to off,multiplug_off
+switch off the multiplug,multiplug_off
+Please switch off the multiplug,multiplug_off
+Can you switch off the multiplug,multiplug_off
+Could you switch off the multiplug for me,multiplug_off
+I want to switch off the multiplug,multiplug_off
+I need you to switch off the multiplug,multiplug_off
+Kindly switch off the multiplug,multiplug_off
+Would you switch off the multiplug,multiplug_off
+Make sure to switch off the multiplug,multiplug_off
+Can you please switch off the multiplug,multiplug_off
+deactivate the multiplug,multiplug_off
+Please deactivate the multiplug,multiplug_off
+Can you deactivate the multiplug,multiplug_off
+Could you deactivate the multiplug for me,multiplug_off
+I want to deactivate the multiplug,multiplug_off
+I need you to deactivate the multiplug,multiplug_off
+Kindly deactivate the multiplug,multiplug_off
+Would you deactivate the multiplug,multiplug_off
+Make sure to deactivate the multiplug,multiplug_off
+Can you please deactivate the multiplug,multiplug_off
+power off the multiplug,multiplug_off
+Please power off the multiplug,multiplug_off
+Can you power off the multiplug,multiplug_off
+Could you power off the multiplug for me,multiplug_off
+I want to power off the multiplug,multiplug_off
+I need you to power off the multiplug,multiplug_off
+Kindly power off the multiplug,multiplug_off
+Would you power off the multiplug,multiplug_off
+Make sure to power off the multiplug,multiplug_off
+Can you please power off the multiplug,multiplug_off
+shut off the multiplug,multiplug_off
+Please shut off the multiplug,multiplug_off
+Can you shut off the multiplug,multiplug_off
+Could you shut off the multiplug for me,multiplug_off
+I want to shut off the multiplug,multiplug_off
+I need you to shut off the multiplug,multiplug_off
+Kindly shut off the multiplug,multiplug_off
+Would you shut off the multiplug,multiplug_off
+Make sure to shut off the multiplug,multiplug_off
+Can you please shut off the multiplug,multiplug_off
+disable the multiplug,multiplug_off
+Please disable the multiplug,multiplug_off
+Can you disable the multiplug,multiplug_off
+Could you disable the multiplug for me,multiplug_off
+I want to disable the multiplug,multiplug_off
+I need you to disable the multiplug,multiplug_off
+Kindly disable the multiplug,multiplug_off
+Would you disable the multiplug,multiplug_off
+Make sure to disable the multiplug,multiplug_off
+Can you please disable the multiplug,multiplug_off
+turn off the power strip,multiplug_off
+Please turn off the power strip,multiplug_off
+Can you turn off the power strip,multiplug_off
+Could you turn off the power strip for me,multiplug_off
+I want to turn off the power strip,multiplug_off
+I need you to turn off the power strip,multiplug_off
+Kindly turn off the power strip,multiplug_off
+Would you turn off the power strip,multiplug_off
+Make sure to turn off the power strip,multiplug_off
+Can you please turn off the power strip,multiplug_off
+Please make the power strip off,multiplug_off
+I would like the power strip off,multiplug_off
+Set the power strip to off,multiplug_off
+switch off the power strip,multiplug_off
+Turn on the TV in the bedroom.,tv_on
+Please switch on the TV in the living room.,tv_on
+"It's time to watch TV, can you turn on the TV?",tv_on
+"Activate the TV in the office, please.",tv_on
+"It's movie night, turn on the TV.",tv_on
+Can you flip the switch to turn on the TV?,tv_on
+"Time to catch up on shows, switch on the TV.",tv_on
+"I want to relax and watch TV, turn on the TV.",tv_on
+"It's time for entertainment, turn on the TV.",tv_on
+"Switch on the TV, I want to see the news.",tv_on
+Is the game on yet?,tv_on
+Time for Netflix.,tv_on
+I want to see the news.,tv_on
+Let's watch a movie.,tv_on
+Start the screen.,tv_on
+I want to watch something,tv_on
+Let's watch television,tv_on
+I want some entertainment on the TV,tv_on
+It's time to watch my favourite show,tv_on
+I want to catch the news,tv_on
+I feel like watching a movie,tv_on
+Let's put something on television,tv_on
+I want to watch my favourite programme,tv_on
+turn on the TV,tv_on
+Please turn on the TV,tv_on
+Can you turn on the TV,tv_on
+Could you turn on the TV for me,tv_on
+I want to turn on the TV,tv_on
+I need you to turn on the TV,tv_on
+Kindly turn on the TV,tv_on
+Would you turn on the TV,tv_on
+Make sure to turn on the TV,tv_on
+Can you please turn on the TV,tv_on
+Please make the TV on,tv_on
+I would like the TV on,tv_on
+Set the TV to on,tv_on
+switch on the TV,tv_on
+Please switch on the TV,tv_on
+Can you switch on the TV,tv_on
+Could you switch on the TV for me,tv_on
+I want to switch on the TV,tv_on
+I need you to switch on the TV,tv_on
+Kindly switch on the TV,tv_on
+Would you switch on the TV,tv_on
+Make sure to switch on the TV,tv_on
+Can you please switch on the TV,tv_on
+activate the TV,tv_on
+Please activate the TV,tv_on
+Can you activate the TV,tv_on
+Could you activate the TV for me,tv_on
+I want to activate the TV,tv_on
+I need you to activate the TV,tv_on
+Kindly activate the TV,tv_on
+Would you activate the TV,tv_on
+Make sure to activate the TV,tv_on
+Can you please activate the TV,tv_on
+power on the TV,tv_on
+Please power on the TV,tv_on
+Can you power on the TV,tv_on
+Could you power on the TV for me,tv_on
+I want to power on the TV,tv_on
+I need you to power on the TV,tv_on
+Kindly power on the TV,tv_on
+Would you power on the TV,tv_on
+Make sure to power on the TV,tv_on
+Can you please power on the TV,tv_on
+start the TV,tv_on
+Please start the TV,tv_on
+Can you start the TV,tv_on
+Could you start the TV for me,tv_on
+I want to start the TV,tv_on
+I need you to start the TV,tv_on
+Kindly start the TV,tv_on
+Would you start the TV,tv_on
+Make sure to start the TV,tv_on
+Can you please start the TV,tv_on
+enable the TV,tv_on
+Please enable the TV,tv_on
+Can you enable the TV,tv_on
+Could you enable the TV for me,tv_on
+I want to enable the TV,tv_on
+I need you to enable the TV,tv_on
+Kindly enable the TV,tv_on
+Would you enable the TV,tv_on
+Make sure to enable the TV,tv_on
+Can you please enable the TV,tv_on
+turn on the television,tv_on
+Please turn on the television,tv_on
+Can you turn on the television,tv_on
+Could you turn on the television for me,tv_on
+I want to turn on the television,tv_on
+I need you to turn on the television,tv_on
+Kindly turn on the television,tv_on
+Would you turn on the television,tv_on
+Make sure to turn on the television,tv_on
+Can you please turn on the television,tv_on
+Please make the television on,tv_on
+I would like the television on,tv_on
+Set the television to on,tv_on
+switch on the television,tv_on
+Turn off the TV in the bedroom.,tv_off
+Please switch off the TV in the living room.,tv_off
+"It's time to sleep, can you turn off the TV?",tv_off
+"Deactivate the TV in the office, please.",tv_off
+"It's bedtime, turn off the TV.",tv_off
+Can you flip the switch to turn off the TV?,tv_off
+"Time to relax without TV, switch off the TV.",tv_off
+"I want some peace and quiet, turn off the TV.",tv_off
+"It's time to save energy, turn off the TV.",tv_off
+"Switch off the TV, I'm done watching.",tv_off
+The show is over.,tv_off
+No more screen time.,tv_off
+Bedtime for the kids.,tv_off
+Kill the TV.,tv_off
+Quiet the television.,tv_off
+I'm finished watching television,tv_off
+I've finished my show,tv_off
+I don't want to watch anything anymore,tv_off
+The programme is over,tv_off
+I'm done watching TV,tv_off
+I want the screen to go dark,tv_off
+There is nothing left to watch,tv_off
+I'm going to stop watching television,tv_off
+turn off the TV,tv_off
+Please turn off the TV,tv_off
+Can you turn off the TV,tv_off
+Could you turn off the TV for me,tv_off
+I want to turn off the TV,tv_off
+I need you to turn off the TV,tv_off
+Kindly turn off the TV,tv_off
+Would you turn off the TV,tv_off
+Make sure to turn off the TV,tv_off
+Can you please turn off the TV,tv_off
+Please make the TV off,tv_off
+I would like the TV off,tv_off
+Set the TV to off,tv_off
+switch off the TV,tv_off
+Please switch off the TV,tv_off
+Can you switch off the TV,tv_off
+Could you switch off the TV for me,tv_off
+I want to switch off the TV,tv_off
+I need you to switch off the TV,tv_off
+Kindly switch off the TV,tv_off
+Would you switch off the TV,tv_off
+Make sure to switch off the TV,tv_off
+Can you please switch off the TV,tv_off
+deactivate the TV,tv_off
+Please deactivate the TV,tv_off
+Can you deactivate the TV,tv_off
+Could you deactivate the TV for me,tv_off
+I want to deactivate the TV,tv_off
+I need you to deactivate the TV,tv_off
+Kindly deactivate the TV,tv_off
+Would you deactivate the TV,tv_off
+Make sure to deactivate the TV,tv_off
+Can you please deactivate the TV,tv_off
+power off the TV,tv_off
+Please power off the TV,tv_off
+Can you power off the TV,tv_off
+Could you power off the TV for me,tv_off
+I want to power off the TV,tv_off
+I need you to power off the TV,tv_off
+Kindly power off the TV,tv_off
+Would you power off the TV,tv_off
+Make sure to power off the TV,tv_off
+Can you please power off the TV,tv_off
+shut off the TV,tv_off
+Please shut off the TV,tv_off
+Can you shut off the TV,tv_off
+Could you shut off the TV for me,tv_off
+I want to shut off the TV,tv_off
+I need you to shut off the TV,tv_off
+Kindly shut off the TV,tv_off
+Would you shut off the TV,tv_off
+Make sure to shut off the TV,tv_off
+Can you please shut off the TV,tv_off
+disable the TV,tv_off
+Please disable the TV,tv_off
+Can you disable the TV,tv_off
+Could you disable the TV for me,tv_off
+I want to disable the TV,tv_off
+I need you to disable the TV,tv_off
+Kindly disable the TV,tv_off
+Would you disable the TV,tv_off
+Make sure to disable the TV,tv_off
+Can you please disable the TV,tv_off
+turn off the television,tv_off
+Please turn off the television,tv_off
+Can you turn off the television,tv_off
+Could you turn off the television for me,tv_off
+I want to turn off the television,tv_off
+I need you to turn off the television,tv_off
+Kindly turn off the television,tv_off
+Would you turn off the television,tv_off
+Make sure to turn off the television,tv_off
+Can you please turn off the television,tv_off
+Please make the television off,tv_off
+I would like the television off,tv_off
+Set the television to off,tv_off
+switch off the television,tv_off

@@ -7,6 +7,9 @@ import sounddevice as sd
 import subprocess
 import ast
 import operator
+import re
+import time
+import numpy as np
 
 from vosk import Model, KaldiRecognizer
 
@@ -46,7 +49,29 @@ operations = {
 
 
 # ==================================
-# 4. SPEAK FUNCTION
+# 4. SMART HOME COMMANDS
+# ==================================
+
+smart_home_commands = {
+    "light_on": "turn on the lights",
+    "light_off": "turn off the lights",
+    "ac_on": "turn on the air conditioner",
+    "ac_off": "turn off the air conditioner",
+    "fan_on": "turn on the fan",
+    "fan_off": "turn off the fan",
+    "vent_on": "turn on the ventilation system",
+    "vent_off": "turn off the ventilation system",
+    "heater_on": "turn on the heater",
+    "heater_off": "turn off the heater",
+    "multiplug_on": "turn on the multiplug",
+    "multiplug_off": "turn off the multiplug",
+    "tv_on": "turn on the television",
+    "tv_off": "turn off the television"
+}
+
+
+# ==================================
+# 5. SPEAK FUNCTION
 # ==================================
 
 def speak(text):
@@ -58,40 +83,104 @@ def speak(text):
 
 
 # ==================================
-# 5. OFFLINE LISTEN FUNCTION
+# 6. AUDIO NORMALIZATION
 # ==================================
 
-def listen():
+def improve_audio(data):
+
+    audio_array = np.frombuffer(
+        data,
+        dtype=np.int16
+    )
+
+    audio_float = audio_array.astype(np.float32)
+
+    peak = np.max(np.abs(audio_float))
+
+    if peak > 0:
+
+        audio_float = audio_float * (12000 / peak)
+
+    audio_float = np.clip(
+        audio_float,
+        -32768,
+        32767
+    ).astype(np.int16)
+
+    return audio_float.tobytes()
+
+
+# ==================================
+# 7. LISTEN FUNCTION
+# ==================================
+
+def listen(mode="command"):
 
     print("\nListening...")
 
-    recognizer = KaldiRecognizer(vosk_model, 16000)
+    recognizer = KaldiRecognizer(
+        vosk_model,
+        16000
+    )
+
+    timeout = 15 if mode == "free" else 10
+
+    start_time = time.monotonic()
 
     try:
 
         with sd.RawInputStream(
             samplerate=16000,
-            blocksize=8000,
+            blocksize=4000,
             device=1,
             dtype="int16",
             channels=1
         ) as stream:
 
-            while True:
+            while time.monotonic() - start_time < timeout:
 
                 data, overflowed = stream.read(4000)
 
-                if recognizer.AcceptWaveform(bytes(data)):
+                if overflowed:
+                    print("Warning: Microphone buffer overflow")
 
-                    result = json.loads(recognizer.Result())
+                # Improve microphone audio
+                audio_data = improve_audio(bytes(data))
 
-                    command = result.get("text", "").strip()
+                if recognizer.AcceptWaveform(audio_data):
 
-                    if command:
+                    result = json.loads(
+                        recognizer.Result()
+                    )
+
+                    command = result.get(
+                        "text", ""
+                    ).strip()
+
+                    if command and command != "[unk]":
 
                         print("You:", command)
 
                         return command
+
+            # Get remaining speech
+            result = json.loads(
+                recognizer.FinalResult()
+            )
+
+            command = result.get(
+                "text", ""
+            ).strip()
+
+            if command and command != "[unk]":
+
+                print("You:", command)
+
+                return command
+
+            print("No clear speech detected.")
+
+            return ""
 
     except Exception as error:
 
@@ -101,7 +190,7 @@ def listen():
 
 
 # ==================================
-# 6. SAFE CALCULATOR
+# 8. SAFE CALCULATOR
 # ==================================
 
 def calculate(expression):
@@ -110,24 +199,61 @@ def calculate(expression):
 
         expression = expression.lower()
 
-        expression = expression.replace("multiplied by", "*")
-        expression = expression.replace("divided by", "/")
-        expression = expression.replace("plus", "+")
-        expression = expression.replace("minus", "-")
-        expression = expression.replace("times", "*")
-        expression = expression.replace("divide", "/")
+        expression = expression.replace(
+            "multiplied by", "*"
+        )
 
-        tree = ast.parse(expression, mode="eval")
+        expression = expression.replace(
+            "divided by", "/"
+        )
+
+        expression = expression.replace(
+            "plus", "+"
+        )
+
+        expression = expression.replace(
+            "minus", "-"
+        )
+
+        expression = expression.replace(
+            "times", "*"
+        )
+
+        expression = expression.replace(
+            "divide", "/"
+        )
+
+        expression = expression.replace(
+            "x", "*"
+        )
+
+        expression = re.sub(
+            r"[^0-9.+*/() -]",
+            "",
+            expression
+        )
+
+        tree = ast.parse(
+            expression,
+            mode="eval"
+        )
 
         def solve(node):
 
             if isinstance(node, ast.Expression):
                 return solve(node.body)
 
-            if isinstance(node, ast.Constant) and type(node.value) in (int, float):
+            if (
+                isinstance(node, ast.Constant)
+                and type(node.value) in (int, float)
+            ):
+
                 return node.value
 
-            if isinstance(node, ast.BinOp) and type(node.op) in operations:
+            if (
+                isinstance(node, ast.BinOp)
+                and type(node.op) in operations
+            ):
 
                 return operations[type(node.op)](
                     solve(node.left),
@@ -144,7 +270,30 @@ def calculate(expression):
 
 
 # ==================================
-# 7. PROCESS COMMANDS
+# 9. SMART HOME HANDLER
+# ==================================
+
+def control_smart_home(intent):
+
+    action = smart_home_commands.get(intent)
+
+    if action:
+
+        speak("Smart home command recognized.")
+
+        speak(
+            "I understood your request to " + action + "."
+        )
+
+        speak("Device control is not connected yet.")
+
+    else:
+
+        speak("Unknown smart home command.")
+
+
+# ==================================
+# 10. PROCESS COMMANDS
 # ==================================
 
 def run_jarvis(command):
@@ -152,9 +301,32 @@ def run_jarvis(command):
     if not command:
         return
 
-    prediction = model.predict([command])[0]
+    probabilities = model.predict_proba(
+        [command]
+    )[0]
 
-    print("Detected intent:", prediction)
+    best_index = probabilities.argmax()
+
+    prediction = model.classes_[best_index]
+
+    confidence = probabilities[best_index]
+
+    print("\nDetected intent:", prediction)
+
+    print(
+        "Confidence:",
+        round(confidence * 100, 2),
+        "%"
+    )
+
+    # Confidence check
+    if confidence < 0.40:
+
+        speak(
+            "Sorry, I did not understand. Please repeat."
+        )
+
+        return
 
     if prediction == "greeting":
 
@@ -162,19 +334,27 @@ def run_jarvis(command):
 
     elif prediction == "time":
 
-        current_time = datetime.datetime.now().strftime("%I:%M %p")
+        current_time = datetime.datetime.now().strftime(
+            "%I:%M %p"
+        )
 
-        speak("The current time is " + current_time)
+        speak(
+            "The current time is " + current_time
+        )
 
     elif prediction == "note":
 
         speak("What should I remember?")
 
-        note = listen()
+        note = listen("free")
 
         if note:
 
-            with open("notes.txt", "a", encoding="utf-8") as file:
+            with open(
+                "notes.txt",
+                "a",
+                encoding="utf-8"
+            ) as file:
 
                 file.write(note + "\n")
 
@@ -184,11 +364,15 @@ def run_jarvis(command):
 
         speak("Tell me your calculation.")
 
-        expression = listen()
+        expression = listen("free")
 
-        answer = calculate(expression)
+        if expression:
 
-        speak("The answer is " + str(answer))
+            answer = calculate(expression)
+
+            speak(
+                "The answer is " + str(answer)
+            )
 
     elif prediction == "open_notepad":
 
@@ -200,13 +384,23 @@ def run_jarvis(command):
 
         speak("Opening Google Chrome.")
 
-        subprocess.Popen(["cmd", "/c", "start", "", "chrome"])
+        subprocess.Popen(
+            ["cmd", "/c", "start", "", "chrome"]
+        )
 
     elif prediction == "open_calculator":
 
+        subprocess.Popen(["calc.exe"])
+
         speak("Opening Calculator.")
 
-        subprocess.Popen(["calc.exe"])
+    elif prediction in smart_home_commands:
+
+        control_smart_home(prediction)
+
+    elif prediction == "google_search":
+
+        speak("Google search is not connected yet.")
 
     else:
 
@@ -214,43 +408,81 @@ def run_jarvis(command):
 
 
 # ==================================
-# 8. START JARVIS
+# 11. CONTINUOUS JARVIS MODE
 # ==================================
 
-speak("Hello! I am Jarvis. Say Hey to activate me.")
+def start_jarvis():
 
-while True:
+    speak(
+        "Hello! I am Jarvis. Say Hey to activate me."
+    )
 
-    command = listen()
+    while True:
 
-    if not command:
-        continue
+        command = listen("command")
 
-    command = command.lower().strip()
-
-    # Exit command
-    if command in ["exit", "stop jarvis", "goodbye"]:
-
-        speak("Goodbye!")
-
-        break
-
-    # Wake word: HEY
-    if "hey" in command.split():
-
-        speak("Yes, I am listening!")
-
-        next_command = listen()
-
-        if not next_command:
+        if not command:
             continue
 
-        next_command = next_command.lower().strip()
+        command = command.lower().strip()
 
-        if next_command in ["exit", "stop jarvis", "goodbye"]:
+        if command in [
+            "exit",
+            "stop jarvis",
+            "goodbye"
+        ]:
 
             speak("Goodbye!")
 
             break
 
-        run_jarvis(next_command)
+        if "hey" in command.split():
+
+            speak("Yes, I am listening!")
+
+            while True:
+
+                next_command = listen("command")
+
+                if not next_command:
+                    continue
+
+                next_command = next_command.lower().strip()
+
+                if next_command in [
+                    "exit",
+                    "stop jarvis",
+                    "goodbye"
+                ]:
+
+                    speak("Goodbye!")
+
+                    return
+
+                if next_command in [
+                    "sleep",
+                    "go to sleep"
+                ]:
+
+                    speak(
+                        "Going to sleep. Say Hey when you need me."
+                    )
+
+                    break
+
+                run_jarvis(next_command)
+
+
+# ==================================
+# 12. RUN PROGRAM
+# ==================================
+
+if __name__ == "__main__":
+
+    try:
+
+        start_jarvis()
+
+    except KeyboardInterrupt:
+
+        print("\nJARVIS stopped.")

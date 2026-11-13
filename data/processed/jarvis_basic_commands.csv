@@ -1,0 +1,211 @@
+text,intent
+hello,greeting
+hi,greeting
+hey,greeting
+hey jarvis,greeting
+hello jarvis,greeting
+hi there,greeting
+good morning,greeting
+good afternoon,greeting
+good evening,greeting
+how are you,greeting
+how are you doing,greeting
+are you there,greeting
+wake up jarvis,greeting
+nice to meet you,greeting
+what's up,greeting
+hey buddy,greeting
+hello assistant,greeting
+good to see you,greeting
+how is it going,greeting
+are you ready,greeting
+hi buddy,greeting
+greetings,greeting
+hey friend,greeting
+hello there,greeting
+jarvis are you awake,greeting
+start listening jarvis,greeting
+can you hear me,greeting
+how are things,greeting
+let's begin,greeting
+good to have you back,greeting
+what time is it,time
+tell me the time,time
+show me the current time,time
+current time please,time
+can you tell me the time,time
+what is the time now,time
+check the time,time
+display the time,time
+do you know the time,time
+tell me what time it is,time
+what's the time,time
+give me the current time,time
+I want to know the time,time
+please check the clock,time
+show current time,time
+jarvis tell me the time,time
+can you check the clock,time
+what time do we have,time
+tell me the clock time,time
+I need to know the time,time
+time please,time
+check current time,time
+show me the clock,time
+what is the present time,time
+read the current time,time
+give me the time,time
+jarvis what time is it,time
+tell me the present time,time
+can you show the time,time
+check what time it is,time
+save a note,note
+remember this,note
+remember this for me,note
+write a note,note
+save this information,note
+take a note,note
+make a note,note
+store this note,note
+remember my assignment,note
+save my reminder,note
+write this down,note
+keep this information,note
+note this down,note
+I want to save something,note
+please remember this,note
+store my information,note
+create a new note,note
+add a note,note
+save my notes,note
+remember my task,note
+write my reminder,note
+keep a note,note
+save this for later,note
+record this information,note
+jarvis take a note,note
+I have something to remember,note
+please write this down,note
+store this for me,note
+remember my work,note
+make a quick note,note
+calculate 20 plus 30,calculator
+what is 10 times 5,calculator
+add 50 and 60,calculator
+calculate 100 divided by 2,calculator
+what is 25 plus 75,calculator
+subtract 20 from 100,calculator
+multiply 12 by 5,calculator
+divide 100 by 10,calculator
+calculate 45 plus 55,calculator
+what is 9 times 9,calculator
+solve 50 minus 20,calculator
+calculate 200 divided by 4,calculator
+what is 15 multiplied by 3,calculator
+add 100 and 200,calculator
+subtract 30 from 90,calculator
+what is 80 divided by 8,calculator
+calculate 25 times 4,calculator
+solve 150 plus 250,calculator
+what is 500 minus 125,calculator
+multiply 20 by 6,calculator
+calculate 75 divided by 5,calculator
+what is 40 plus 60,calculator
+solve 12 times 12,calculator
+add 250 and 150,calculator
+calculate 300 minus 75,calculator
+what is 144 divided by 12,calculator
+multiply 15 by 8,calculator
+calculate 90 plus 110,calculator
+what is 1000 minus 500,calculator
+solve 25 multiplied by 10,calculator
+open notepad,open_notepad
+start notepad,open_notepad
+launch notepad,open_notepad
+open my notepad,open_notepad
+please open notepad,open_notepad
+start the notepad application,open_notepad
+launch the notepad app,open_notepad
+I want to open notepad,open_notepad
+can you open notepad,open_notepad
+run notepad,open_notepad
+open windows notepad,open_notepad
+start my notepad,open_notepad
+bring up notepad,open_notepad
+show me notepad,open_notepad
+open the text editor,open_notepad
+run the notepad application,open_notepad
+jarvis open notepad,open_notepad
+I need notepad,open_notepad
+please start notepad,open_notepad
+can you launch notepad,open_notepad
+open a text editor,open_notepad
+start the text editor,open_notepad
+I want to use notepad,open_notepad
+open notepad for me,open_notepad
+launch windows notepad,open_notepad
+start writing in notepad,open_notepad
+get notepad ready,open_notepad
+run the text editor,open_notepad
+please launch notepad,open_notepad
+open the notepad program,open_notepad
+open chrome,open_chrome
+start chrome,open_chrome
+launch google chrome,open_chrome
+open google browser,open_chrome
+start google browser,open_chrome
+please open chrome,open_chrome
+run chrome,open_chrome
+launch chrome browser,open_chrome
+open my browser,open_chrome
+start my browser,open_chrome
+I want to open chrome,open_chrome
+can you launch chrome,open_chrome
+open the internet browser,open_chrome
+start the chrome application,open_chrome
+bring up google chrome,open_chrome
+jarvis open chrome,open_chrome
+I need google chrome,open_chrome
+please start the browser,open_chrome
+launch my web browser,open_chrome
+open chrome for me,open_chrome
+run google chrome,open_chrome
+start browsing,open_chrome
+show me google chrome,open_chrome
+open the google browser,open_chrome
+get chrome ready,open_chrome
+I want to use chrome,open_chrome
+launch the browser,open_chrome
+please launch google chrome,open_chrome
+open my google browser,open_chrome
+start the chrome browser,open_chrome
+open calculator,open_calculator
+start calculator,open_calculator
+launch calculator,open_calculator
+open windows calculator,open_calculator
+start my calculator,open_calculator
+please open calculator,open_calculator
+run calculator,open_calculator
+launch the calculator app,open_calculator
+open my calculator,open_calculator
+I need the calculator,open_calculator
+can you open calculator,open_calculator
+start the calculator application,open_calculator
+bring up calculator,open_calculator
+show me calculator,open_calculator
+jarvis open calculator,open_calculator
+I want to use calculator,open_calculator
+please start calculator,open_calculator
+run windows calculator,open_calculator
+open calculator for me,open_calculator
+launch windows calculator,open_calculator
+get calculator ready,open_calculator
+start my windows calculator,open_calculator
+open the calculation app,open_calculator
+I want to calculate something,open_calculator
+please launch calculator,open_calculator
+can you start the calculator,open_calculator
+open the calculator program,open_calculator
+show windows calculator,open_calculator
+start the calculation tool,open_calculator
+run the calculator application,open_calculator
